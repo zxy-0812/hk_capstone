@@ -1,0 +1,1157 @@
+2025-05-24 22:25:30,809 - INFO - ==================================================
+2025-05-24 22:25:30,810 - INFO - Training Parameters:
+2025-05-24 22:25:30,810 - INFO - batch_size: 64
+2025-05-24 22:25:30,810 - INFO - dist_url: env://
+2025-05-24 22:25:30,810 - INFO - epochs: 50
+2025-05-24 22:25:30,810 - INFO - exp_name: 0524_panorama_images1_gpu4_ep50_bs32_lr2e-5
+2025-05-24 22:25:30,810 - INFO - freeze_backbone: False
+2025-05-24 22:25:30,811 - INFO - image_path: /home/zhongxinyu/capstone/HK/datasets/panorama_images_1
+2025-05-24 22:25:30,811 - INFO - label_path: /home/zhongxinyu/capstone/HK/datasets/labels.csv
+2025-05-24 22:25:30,811 - INFO - log_dir: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/logs
+2025-05-24 22:25:30,811 - INFO - log_interval: 10
+2025-05-24 22:25:30,811 - INFO - lr: 0.0001
+2025-05-24 22:25:30,811 - INFO - master_addr: localhost
+2025-05-24 22:25:30,811 - INFO - master_port: 12345
+2025-05-24 22:25:30,812 - INFO - min_lr: 1e-07
+2025-05-24 22:25:30,812 - INFO - nproc_per_node: 8
+2025-05-24 22:25:30,812 - INFO - pretrained: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/checkpoints/best_deeplabv3plus_resnet101_cityscapes_os16.pth.tar
+2025-05-24 22:25:30,812 - INFO - rank: 0
+2025-05-24 22:25:30,812 - INFO - save_path: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/checkpoints/best_regression_model.pth
+2025-05-24 22:25:30,812 - INFO - warmup_epochs: 1
+2025-05-24 22:25:30,812 - INFO - world_size: 8
+2025-05-24 22:25:30,812 - INFO - Date: 2025-05-24 22:25:30
+2025-05-24 22:25:30,813 - INFO - PyTorch Version: 1.12.0
+2025-05-24 22:25:30,813 - INFO - GPU Count: 8
+2025-05-24 22:25:30,817 - INFO - GPU 0: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,817 - INFO - GPU 1: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,817 - INFO - GPU 2: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,818 - INFO - GPU 3: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,818 - INFO - GPU 4: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,818 - INFO - GPU 5: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,818 - INFO - GPU 6: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,818 - INFO - GPU 7: Tesla V100-PCIE-32GB
+2025-05-24 22:25:30,818 - INFO - ==================================================
+2025-05-24 22:25:46,516 - INFO - 预训练权重加载完成: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/checkpoints/best_deeplabv3plus_resnet101_cityscapes_os16.pth.tar
+2025-05-24 22:25:51,616 - INFO - Epoch 1/50 | Learning Rate: 0.00e+00
+2025-05-24 22:26:27,754 - INFO - Step 10 | Batch 10/180 | Train Loss: 0.8776 | LR: 0.00e+00
+2025-05-24 22:27:00,663 - INFO - Step 20 | Batch 20/180 | Train Loss: 0.4459 | LR: 0.00e+00
+2025-05-24 22:27:35,222 - INFO - Step 30 | Batch 30/180 | Train Loss: 0.4152 | LR: 0.00e+00
+2025-05-24 22:28:07,944 - INFO - Step 40 | Batch 40/180 | Train Loss: 0.7242 | LR: 0.00e+00
+2025-05-24 22:28:42,730 - INFO - Step 50 | Batch 50/180 | Train Loss: 0.2993 | LR: 0.00e+00
+2025-05-24 22:29:16,520 - INFO - Step 60 | Batch 60/180 | Train Loss: 1.2294 | LR: 0.00e+00
+2025-05-24 22:29:51,295 - INFO - Step 70 | Batch 70/180 | Train Loss: 0.8514 | LR: 0.00e+00
+2025-05-24 22:30:29,725 - INFO - Step 80 | Batch 80/180 | Train Loss: 1.3940 | LR: 0.00e+00
+2025-05-24 22:31:03,704 - INFO - Step 90 | Batch 90/180 | Train Loss: 1.0971 | LR: 0.00e+00
+2025-05-24 22:31:39,275 - INFO - Step 100 | Batch 100/180 | Train Loss: 2.0238 | LR: 0.00e+00
+2025-05-24 22:32:13,356 - INFO - Step 110 | Batch 110/180 | Train Loss: 0.8282 | LR: 0.00e+00
+2025-05-24 22:32:49,345 - INFO - Step 120 | Batch 120/180 | Train Loss: 0.5048 | LR: 0.00e+00
+2025-05-24 22:33:25,287 - INFO - Step 130 | Batch 130/180 | Train Loss: 1.4605 | LR: 0.00e+00
+2025-05-24 22:34:00,035 - INFO - Step 140 | Batch 140/180 | Train Loss: 0.2165 | LR: 0.00e+00
+2025-05-24 22:34:35,589 - INFO - Step 150 | Batch 150/180 | Train Loss: 0.5552 | LR: 0.00e+00
+2025-05-24 22:35:10,286 - INFO - Step 160 | Batch 160/180 | Train Loss: 1.1803 | LR: 0.00e+00
+2025-05-24 22:35:46,705 - INFO - Step 170 | Batch 170/180 | Train Loss: 0.4308 | LR: 0.00e+00
+2025-05-24 22:36:18,646 - INFO - Step 180 | Batch 180/180 | Train Loss: 0.0125 | LR: 0.00e+00
+2025-05-24 22:38:37,120 - INFO - Validation Loss: 0.9072
+2025-05-24 22:38:39,979 - INFO - New best model saved with val_loss: 0.9597
+2025-05-24 22:38:39,981 - INFO - Epoch 1/50 Summary:
+2025-05-24 22:38:39,981 - INFO - Train Loss: 1.0295 | Val Loss: 0.9597 | Best Val Loss: 0.9597
+2025-05-24 22:38:39,982 - INFO - --------------------------------------------------
+2025-05-24 22:38:39,984 - INFO - Epoch 2/50 | Learning Rate: 8.00e-04
+2025-05-24 22:39:13,226 - INFO - Step 190 | Batch 10/180 | Train Loss: 0.3971 | LR: 8.00e-04
+2025-05-24 22:39:49,942 - INFO - Step 200 | Batch 20/180 | Train Loss: 0.8288 | LR: 8.00e-04
+2025-05-24 22:40:26,103 - INFO - Step 210 | Batch 30/180 | Train Loss: 0.4046 | LR: 8.00e-04
+2025-05-24 22:40:56,058 - INFO - Step 220 | Batch 40/180 | Train Loss: 1.4521 | LR: 8.00e-04
+2025-05-24 22:41:27,914 - INFO - Step 230 | Batch 50/180 | Train Loss: 5.5482 | LR: 8.00e-04
+2025-05-24 22:41:57,708 - INFO - Step 240 | Batch 60/180 | Train Loss: 2.1034 | LR: 8.00e-04
+2025-05-24 22:42:29,599 - INFO - Step 250 | Batch 70/180 | Train Loss: 2.6246 | LR: 8.00e-04
+2025-05-24 22:42:58,814 - INFO - Step 260 | Batch 80/180 | Train Loss: 2.1561 | LR: 8.00e-04
+2025-05-24 22:43:29,701 - INFO - Step 270 | Batch 90/180 | Train Loss: 0.8045 | LR: 8.00e-04
+2025-05-24 22:43:59,041 - INFO - Step 280 | Batch 100/180 | Train Loss: 0.8795 | LR: 8.00e-04
+2025-05-24 22:44:30,505 - INFO - Step 290 | Batch 110/180 | Train Loss: 0.8404 | LR: 8.00e-04
+2025-05-24 22:45:00,456 - INFO - Step 300 | Batch 120/180 | Train Loss: 1.2081 | LR: 8.00e-04
+2025-05-24 22:45:32,608 - INFO - Step 310 | Batch 130/180 | Train Loss: 1.4312 | LR: 8.00e-04
+2025-05-24 22:46:02,243 - INFO - Step 320 | Batch 140/180 | Train Loss: 0.4495 | LR: 8.00e-04
+2025-05-24 22:46:33,711 - INFO - Step 330 | Batch 150/180 | Train Loss: 1.1668 | LR: 8.00e-04
+2025-05-24 22:47:03,086 - INFO - Step 340 | Batch 160/180 | Train Loss: 0.0669 | LR: 8.00e-04
+2025-05-24 22:47:33,995 - INFO - Step 350 | Batch 170/180 | Train Loss: 0.6274 | LR: 8.00e-04
+2025-05-24 22:48:00,644 - INFO - Step 360 | Batch 180/180 | Train Loss: 0.1929 | LR: 8.00e-04
+2025-05-24 22:49:54,194 - INFO - Validation Loss: 31.9776
+2025-05-24 22:49:54,563 - INFO - Epoch 2/50 Summary:
+2025-05-24 22:49:54,564 - INFO - Train Loss: 1.2683 | Val Loss: 4.8388 | Best Val Loss: 0.9597
+2025-05-24 22:49:54,564 - INFO - --------------------------------------------------
+2025-05-24 22:49:54,567 - INFO - Epoch 3/50 | Learning Rate: 7.99e-04
+2025-05-24 22:50:26,386 - INFO - Step 370 | Batch 10/180 | Train Loss: 0.6095 | LR: 7.99e-04
+2025-05-24 22:50:56,468 - INFO - Step 380 | Batch 20/180 | Train Loss: 1.3793 | LR: 7.99e-04
+2025-05-24 22:51:28,935 - INFO - Step 390 | Batch 30/180 | Train Loss: 1.0962 | LR: 7.99e-04
+2025-05-24 22:51:58,341 - INFO - Step 400 | Batch 40/180 | Train Loss: 0.7209 | LR: 7.99e-04
+2025-05-24 22:52:29,755 - INFO - Step 410 | Batch 50/180 | Train Loss: 0.8183 | LR: 7.99e-04
+2025-05-24 22:52:59,242 - INFO - Step 420 | Batch 60/180 | Train Loss: 1.0225 | LR: 7.99e-04
+2025-05-24 22:53:27,670 - INFO - Step 430 | Batch 70/180 | Train Loss: 1.6580 | LR: 7.99e-04
+2025-05-24 22:53:54,664 - INFO - Step 440 | Batch 80/180 | Train Loss: 0.5441 | LR: 7.99e-04
+2025-05-24 22:54:23,394 - INFO - Step 450 | Batch 90/180 | Train Loss: 1.2496 | LR: 7.99e-04
+2025-05-24 22:54:50,962 - INFO - Step 460 | Batch 100/180 | Train Loss: 0.2818 | LR: 7.99e-04
+2025-05-24 22:55:18,088 - INFO - Step 470 | Batch 110/180 | Train Loss: 0.4676 | LR: 7.99e-04
+2025-05-24 22:55:46,250 - INFO - Step 480 | Batch 120/180 | Train Loss: 0.3420 | LR: 7.99e-04
+2025-05-24 22:56:13,343 - INFO - Step 490 | Batch 130/180 | Train Loss: 1.9441 | LR: 7.99e-04
+2025-05-24 22:56:41,339 - INFO - Step 500 | Batch 140/180 | Train Loss: 0.9313 | LR: 7.99e-04
+2025-05-24 22:57:08,369 - INFO - Step 510 | Batch 150/180 | Train Loss: 0.8108 | LR: 7.99e-04
+2025-05-24 22:57:37,125 - INFO - Step 520 | Batch 160/180 | Train Loss: 1.8645 | LR: 7.99e-04
+2025-05-24 22:58:04,003 - INFO - Step 530 | Batch 170/180 | Train Loss: 0.3636 | LR: 7.99e-04
+2025-05-24 22:58:30,095 - INFO - Step 540 | Batch 180/180 | Train Loss: 0.9841 | LR: 7.99e-04
+2025-05-24 23:00:09,523 - INFO - Validation Loss: 4.5604
+2025-05-24 23:00:09,540 - INFO - Epoch 3/50 Summary:
+2025-05-24 23:00:09,540 - INFO - Train Loss: 1.2323 | Val Loss: 1.4208 | Best Val Loss: 0.9597
+2025-05-24 23:00:09,541 - INFO - --------------------------------------------------
+2025-05-24 23:00:09,543 - INFO - Epoch 4/50 | Learning Rate: 7.97e-04
+2025-05-24 23:00:40,325 - INFO - Step 550 | Batch 10/180 | Train Loss: 1.0462 | LR: 7.97e-04
+2025-05-24 23:01:07,300 - INFO - Step 560 | Batch 20/180 | Train Loss: 2.6548 | LR: 7.97e-04
+2025-05-24 23:01:35,714 - INFO - Step 570 | Batch 30/180 | Train Loss: 0.4603 | LR: 7.97e-04
+2025-05-24 23:02:02,543 - INFO - Step 580 | Batch 40/180 | Train Loss: 1.8699 | LR: 7.97e-04
+2025-05-24 23:02:30,785 - INFO - Step 590 | Batch 50/180 | Train Loss: 0.5176 | LR: 7.97e-04
+2025-05-24 23:02:57,892 - INFO - Step 600 | Batch 60/180 | Train Loss: 1.0183 | LR: 7.97e-04
+2025-05-24 23:03:26,501 - INFO - Step 610 | Batch 70/180 | Train Loss: 2.3860 | LR: 7.97e-04
+2025-05-24 23:03:53,592 - INFO - Step 620 | Batch 80/180 | Train Loss: 2.2508 | LR: 7.97e-04
+2025-05-24 23:04:21,063 - INFO - Step 630 | Batch 90/180 | Train Loss: 2.0474 | LR: 7.97e-04
+2025-05-24 23:04:48,497 - INFO - Step 640 | Batch 100/180 | Train Loss: 0.7029 | LR: 7.97e-04
+2025-05-24 23:05:15,906 - INFO - Step 650 | Batch 110/180 | Train Loss: 1.0893 | LR: 7.97e-04
+2025-05-24 23:05:44,172 - INFO - Step 660 | Batch 120/180 | Train Loss: 0.5037 | LR: 7.97e-04
+2025-05-24 23:06:11,202 - INFO - Step 670 | Batch 130/180 | Train Loss: 1.8197 | LR: 7.97e-04
+2025-05-24 23:06:39,819 - INFO - Step 680 | Batch 140/180 | Train Loss: 0.3259 | LR: 7.97e-04
+2025-05-24 23:07:06,634 - INFO - Step 690 | Batch 150/180 | Train Loss: 0.5710 | LR: 7.97e-04
+2025-05-24 23:07:34,751 - INFO - Step 700 | Batch 160/180 | Train Loss: 1.2010 | LR: 7.97e-04
+2025-05-24 23:08:01,878 - INFO - Step 710 | Batch 170/180 | Train Loss: 0.9477 | LR: 7.97e-04
+2025-05-24 23:08:28,464 - INFO - Step 720 | Batch 180/180 | Train Loss: 1.3117 | LR: 7.97e-04
+2025-05-24 23:10:05,729 - INFO - Validation Loss: 310.0706
+2025-05-24 23:10:06,038 - INFO - Epoch 4/50 Summary:
+2025-05-24 23:10:06,038 - INFO - Train Loss: 1.0447 | Val Loss: 39.6581 | Best Val Loss: 0.9597
+2025-05-24 23:10:06,038 - INFO - --------------------------------------------------
+2025-05-24 23:10:06,041 - INFO - Epoch 5/50 | Learning Rate: 7.93e-04
+2025-05-24 23:10:33,249 - INFO - Step 730 | Batch 10/180 | Train Loss: 1.1555 | LR: 7.93e-04
+2025-05-24 23:11:23,057 - INFO - Step 740 | Batch 20/180 | Train Loss: 0.3239 | LR: 7.93e-04
+2025-05-24 23:12:19,277 - INFO - Step 750 | Batch 30/180 | Train Loss: 0.9143 | LR: 7.93e-04
+2025-05-24 23:13:17,956 - INFO - Step 760 | Batch 40/180 | Train Loss: 1.0703 | LR: 7.93e-04
+2025-05-24 23:14:17,043 - INFO - Step 770 | Batch 50/180 | Train Loss: 0.4754 | LR: 7.93e-04
+2025-05-24 23:15:14,372 - INFO - Step 780 | Batch 60/180 | Train Loss: 0.5876 | LR: 7.93e-04
+2025-05-24 23:16:13,281 - INFO - Step 790 | Batch 70/180 | Train Loss: 0.7913 | LR: 7.93e-04
+2025-05-24 23:17:12,333 - INFO - Step 800 | Batch 80/180 | Train Loss: 0.3575 | LR: 7.93e-04
+2025-05-24 23:18:11,542 - INFO - Step 810 | Batch 90/180 | Train Loss: 1.7840 | LR: 7.93e-04
+2025-05-24 23:19:10,072 - INFO - Step 820 | Batch 100/180 | Train Loss: 1.6642 | LR: 7.93e-04
+2025-05-24 23:20:06,923 - INFO - Step 830 | Batch 110/180 | Train Loss: 2.0896 | LR: 7.93e-04
+2025-05-24 23:21:06,085 - INFO - Step 840 | Batch 120/180 | Train Loss: 1.2339 | LR: 7.93e-04
+2025-05-24 23:22:03,753 - INFO - Step 850 | Batch 130/180 | Train Loss: 1.5549 | LR: 7.93e-04
+2025-05-24 23:23:00,727 - INFO - Step 860 | Batch 140/180 | Train Loss: 0.3280 | LR: 7.93e-04
+2025-05-24 23:23:57,451 - INFO - Step 870 | Batch 150/180 | Train Loss: 1.1558 | LR: 7.93e-04
+2025-05-24 23:24:56,741 - INFO - Step 880 | Batch 160/180 | Train Loss: 0.8588 | LR: 7.93e-04
+2025-05-24 23:25:55,479 - INFO - Step 890 | Batch 170/180 | Train Loss: 2.1977 | LR: 7.93e-04
+2025-05-24 23:26:47,965 - INFO - Step 900 | Batch 180/180 | Train Loss: 1.0726 | LR: 7.93e-04
+2025-05-24 23:30:44,499 - INFO - Validation Loss: 346.2649
+2025-05-24 23:30:44,793 - INFO - Epoch 5/50 Summary:
+2025-05-24 23:30:44,798 - INFO - Train Loss: 1.1137 | Val Loss: 44.3188 | Best Val Loss: 0.9597
+2025-05-24 23:30:44,798 - INFO - --------------------------------------------------
+2025-05-24 23:30:44,801 - INFO - Epoch 6/50 | Learning Rate: 7.87e-04
+2025-05-24 23:31:42,712 - INFO - Step 910 | Batch 10/180 | Train Loss: 1.0818 | LR: 7.87e-04
+2025-05-24 23:32:40,400 - INFO - Step 920 | Batch 20/180 | Train Loss: 0.6971 | LR: 7.87e-04
+2025-05-24 23:33:38,510 - INFO - Step 930 | Batch 30/180 | Train Loss: 1.7729 | LR: 7.87e-04
+2025-05-24 23:34:37,098 - INFO - Step 940 | Batch 40/180 | Train Loss: 1.0816 | LR: 7.87e-04
+2025-05-24 23:35:33,636 - INFO - Step 950 | Batch 50/180 | Train Loss: 0.9507 | LR: 7.87e-04
+2025-05-24 23:36:31,093 - INFO - Step 960 | Batch 60/180 | Train Loss: 0.2446 | LR: 7.87e-04
+2025-05-24 23:37:28,873 - INFO - Step 970 | Batch 70/180 | Train Loss: 1.2654 | LR: 7.87e-04
+2025-05-24 23:38:24,707 - INFO - Step 980 | Batch 80/180 | Train Loss: 2.6425 | LR: 7.87e-04
+2025-05-24 23:39:22,229 - INFO - Step 990 | Batch 90/180 | Train Loss: 1.6196 | LR: 7.87e-04
+2025-05-24 23:40:19,114 - INFO - Step 1000 | Batch 100/180 | Train Loss: 0.7025 | LR: 7.87e-04
+2025-05-24 23:41:16,044 - INFO - Step 1010 | Batch 110/180 | Train Loss: 1.3179 | LR: 7.87e-04
+2025-05-24 23:42:14,568 - INFO - Step 1020 | Batch 120/180 | Train Loss: 1.5840 | LR: 7.87e-04
+2025-05-24 23:43:13,293 - INFO - Step 1030 | Batch 130/180 | Train Loss: 0.9324 | LR: 7.87e-04
+2025-05-24 23:44:10,303 - INFO - Step 1040 | Batch 140/180 | Train Loss: 0.5400 | LR: 7.87e-04
+2025-05-24 23:45:08,534 - INFO - Step 1050 | Batch 150/180 | Train Loss: 0.5610 | LR: 7.87e-04
+2025-05-24 23:46:06,993 - INFO - Step 1060 | Batch 160/180 | Train Loss: 0.9987 | LR: 7.87e-04
+2025-05-24 23:47:05,504 - INFO - Step 1070 | Batch 170/180 | Train Loss: 0.1643 | LR: 7.87e-04
+2025-05-24 23:47:58,073 - INFO - Step 1080 | Batch 180/180 | Train Loss: 58.5136 | LR: 7.87e-04
+2025-05-24 23:51:51,173 - INFO - Validation Loss: 1.7810
+2025-05-24 23:51:52,145 - INFO - Epoch 6/50 Summary:
+2025-05-24 23:51:52,147 - INFO - Train Loss: 1.4627 | Val Loss: 1.4466 | Best Val Loss: 0.9597
+2025-05-24 23:51:52,147 - INFO - --------------------------------------------------
+2025-05-24 23:51:52,151 - INFO - Epoch 7/50 | Learning Rate: 7.80e-04
+2025-05-24 23:52:51,925 - INFO - Step 1090 | Batch 10/180 | Train Loss: 9.4136 | LR: 7.80e-04
+2025-05-24 23:53:50,556 - INFO - Step 1100 | Batch 20/180 | Train Loss: 0.8830 | LR: 7.80e-04
+2025-05-24 23:54:49,032 - INFO - Step 1110 | Batch 30/180 | Train Loss: 0.9163 | LR: 7.80e-04
+2025-05-24 23:55:45,996 - INFO - Step 1120 | Batch 40/180 | Train Loss: 1.5844 | LR: 7.80e-04
+2025-05-24 23:56:43,976 - INFO - Step 1130 | Batch 50/180 | Train Loss: 0.2452 | LR: 7.80e-04
+2025-05-24 23:57:43,275 - INFO - Step 1140 | Batch 60/180 | Train Loss: 0.5497 | LR: 7.80e-04
+2025-05-24 23:58:41,185 - INFO - Step 1150 | Batch 70/180 | Train Loss: 0.4578 | LR: 7.80e-04
+2025-05-24 23:59:39,194 - INFO - Step 1160 | Batch 80/180 | Train Loss: 1.9301 | LR: 7.80e-04
+2025-05-25 00:00:38,824 - INFO - Step 1170 | Batch 90/180 | Train Loss: 0.5541 | LR: 7.80e-04
+2025-05-25 00:01:36,975 - INFO - Step 1180 | Batch 100/180 | Train Loss: 1.1796 | LR: 7.80e-04
+2025-05-25 00:02:38,141 - INFO - Step 1190 | Batch 110/180 | Train Loss: 1.0817 | LR: 7.80e-04
+2025-05-25 00:03:41,867 - INFO - Step 1200 | Batch 120/180 | Train Loss: 0.9379 | LR: 7.80e-04
+2025-05-25 00:04:42,264 - INFO - Step 1210 | Batch 130/180 | Train Loss: 0.6755 | LR: 7.80e-04
+2025-05-25 00:05:42,434 - INFO - Step 1220 | Batch 140/180 | Train Loss: 2.5416 | LR: 7.80e-04
+2025-05-25 00:06:44,037 - INFO - Step 1230 | Batch 150/180 | Train Loss: 0.3397 | LR: 7.80e-04
+2025-05-25 00:07:45,239 - INFO - Step 1240 | Batch 160/180 | Train Loss: 1.2086 | LR: 7.80e-04
+2025-05-25 00:08:49,218 - INFO - Step 1250 | Batch 170/180 | Train Loss: 1.9940 | LR: 7.80e-04
+2025-05-25 00:09:43,344 - INFO - Step 1260 | Batch 180/180 | Train Loss: 1.4405 | LR: 7.80e-04
+2025-05-25 00:13:33,958 - INFO - Validation Loss: 1.0125
+2025-05-25 00:13:34,389 - INFO - Epoch 7/50 Summary:
+2025-05-25 00:13:34,390 - INFO - Train Loss: 1.2458 | Val Loss: 1.0166 | Best Val Loss: 0.9597
+2025-05-25 00:13:34,390 - INFO - --------------------------------------------------
+2025-05-25 00:13:34,394 - INFO - Epoch 8/50 | Learning Rate: 7.71e-04
+2025-05-25 00:14:29,012 - INFO - Step 1270 | Batch 10/180 | Train Loss: 0.9997 | LR: 7.71e-04
+2025-05-25 00:15:28,837 - INFO - Step 1280 | Batch 20/180 | Train Loss: 0.5767 | LR: 7.71e-04
+2025-05-25 00:16:26,324 - INFO - Step 1290 | Batch 30/180 | Train Loss: 1.4385 | LR: 7.71e-04
+2025-05-25 00:17:16,580 - INFO - Step 1300 | Batch 40/180 | Train Loss: 0.3756 | LR: 7.71e-04
+2025-05-25 00:18:10,275 - INFO - Step 1310 | Batch 50/180 | Train Loss: 1.4009 | LR: 7.71e-04
+2025-05-25 00:18:57,691 - INFO - Step 1320 | Batch 60/180 | Train Loss: 1.4910 | LR: 7.71e-04
+2025-05-25 00:19:51,765 - INFO - Step 1330 | Batch 70/180 | Train Loss: 1.0127 | LR: 7.71e-04
+2025-05-25 00:20:46,425 - INFO - Step 1340 | Batch 80/180 | Train Loss: 1.4616 | LR: 7.71e-04
+2025-05-25 00:21:43,313 - INFO - Step 1350 | Batch 90/180 | Train Loss: 1.5050 | LR: 7.71e-04
+2025-05-25 00:22:41,602 - INFO - Step 1360 | Batch 100/180 | Train Loss: 1.8522 | LR: 7.71e-04
+2025-05-25 00:23:39,501 - INFO - Step 1370 | Batch 110/180 | Train Loss: 0.5807 | LR: 7.71e-04
+2025-05-25 00:24:37,517 - INFO - Step 1380 | Batch 120/180 | Train Loss: 1.1456 | LR: 7.71e-04
+2025-05-25 00:25:36,512 - INFO - Step 1390 | Batch 130/180 | Train Loss: 0.5223 | LR: 7.71e-04
+2025-05-25 00:26:34,715 - INFO - Step 1400 | Batch 140/180 | Train Loss: 1.7689 | LR: 7.71e-04
+2025-05-25 00:27:32,720 - INFO - Step 1410 | Batch 150/180 | Train Loss: 0.5029 | LR: 7.71e-04
+2025-05-25 00:28:25,911 - INFO - Step 1420 | Batch 160/180 | Train Loss: 1.1471 | LR: 7.71e-04
+2025-05-25 00:29:22,243 - INFO - Step 1430 | Batch 170/180 | Train Loss: 0.7079 | LR: 7.71e-04
+2025-05-25 00:30:16,241 - INFO - Step 1440 | Batch 180/180 | Train Loss: 0.1828 | LR: 7.71e-04
+2025-05-25 00:33:49,914 - INFO - Validation Loss: 0.9754
+2025-05-25 00:33:50,336 - INFO - Epoch 8/50 Summary:
+2025-05-25 00:33:50,336 - INFO - Train Loss: 1.0890 | Val Loss: 1.1794 | Best Val Loss: 0.9597
+2025-05-25 00:33:50,337 - INFO - --------------------------------------------------
+2025-05-25 00:33:50,341 - INFO - Epoch 9/50 | Learning Rate: 7.60e-04
+2025-05-25 00:34:44,649 - INFO - Step 1450 | Batch 10/180 | Train Loss: 0.5668 | LR: 7.60e-04
+2025-05-25 00:35:43,153 - INFO - Step 1460 | Batch 20/180 | Train Loss: 1.3537 | LR: 7.60e-04
+2025-05-25 00:36:42,267 - INFO - Step 1470 | Batch 30/180 | Train Loss: 0.7440 | LR: 7.60e-04
+2025-05-25 00:37:41,191 - INFO - Step 1480 | Batch 40/180 | Train Loss: 1.3099 | LR: 7.60e-04
+2025-05-25 00:38:39,630 - INFO - Step 1490 | Batch 50/180 | Train Loss: 0.8804 | LR: 7.60e-04
+2025-05-25 00:39:38,308 - INFO - Step 1500 | Batch 60/180 | Train Loss: 1.9396 | LR: 7.60e-04
+2025-05-25 00:40:36,386 - INFO - Step 1510 | Batch 70/180 | Train Loss: 0.7040 | LR: 7.60e-04
+2025-05-25 00:41:33,780 - INFO - Step 1520 | Batch 80/180 | Train Loss: 0.4062 | LR: 7.60e-04
+2025-05-25 00:42:32,338 - INFO - Step 1530 | Batch 90/180 | Train Loss: 0.1025 | LR: 7.60e-04
+2025-05-25 00:43:29,028 - INFO - Step 1540 | Batch 100/180 | Train Loss: 0.2133 | LR: 7.60e-04
+2025-05-25 00:44:25,973 - INFO - Step 1550 | Batch 110/180 | Train Loss: 0.9786 | LR: 7.60e-04
+2025-05-25 00:45:24,473 - INFO - Step 1560 | Batch 120/180 | Train Loss: 1.5435 | LR: 7.60e-04
+2025-05-25 00:46:22,190 - INFO - Step 1570 | Batch 130/180 | Train Loss: 0.6719 | LR: 7.60e-04
+2025-05-25 00:47:19,338 - INFO - Step 1580 | Batch 140/180 | Train Loss: 0.8741 | LR: 7.60e-04
+2025-05-25 00:48:18,082 - INFO - Step 1590 | Batch 150/180 | Train Loss: 2.0722 | LR: 7.60e-04
+2025-05-25 00:49:16,881 - INFO - Step 1600 | Batch 160/180 | Train Loss: 1.8687 | LR: 7.60e-04
+2025-05-25 00:50:13,717 - INFO - Step 1610 | Batch 170/180 | Train Loss: 0.5777 | LR: 7.60e-04
+2025-05-25 00:51:06,617 - INFO - Step 1620 | Batch 180/180 | Train Loss: 7.6640 | LR: 7.60e-04
+2025-05-25 00:54:55,596 - INFO - Validation Loss: 1133.8069
+2025-05-25 00:54:57,204 - INFO - Epoch 9/50 Summary:
+2025-05-25 00:54:57,209 - INFO - Train Loss: 1.0579 | Val Loss: 143.1578 | Best Val Loss: 0.9597
+2025-05-25 00:54:57,209 - INFO - --------------------------------------------------
+2025-05-25 00:54:57,213 - INFO - Epoch 10/50 | Learning Rate: 7.49e-04
+2025-05-25 00:55:56,132 - INFO - Step 1630 | Batch 10/180 | Train Loss: 0.9070 | LR: 7.49e-04
+2025-05-25 00:56:46,527 - INFO - Step 1640 | Batch 20/180 | Train Loss: 2.9863 | LR: 7.49e-04
+2025-05-25 00:57:25,925 - INFO - Step 1650 | Batch 30/180 | Train Loss: 1.3692 | LR: 7.49e-04
+2025-05-25 00:58:25,267 - INFO - Step 1660 | Batch 40/180 | Train Loss: 2.1514 | LR: 7.49e-04
+2025-05-25 00:59:22,363 - INFO - Step 1670 | Batch 50/180 | Train Loss: 0.0916 | LR: 7.49e-04
+2025-05-25 01:00:18,695 - INFO - Step 1680 | Batch 60/180 | Train Loss: 1.3570 | LR: 7.49e-04
+2025-05-25 01:01:14,454 - INFO - Step 1690 | Batch 70/180 | Train Loss: 1.2658 | LR: 7.49e-04
+2025-05-25 01:02:12,988 - INFO - Step 1700 | Batch 80/180 | Train Loss: 1.3327 | LR: 7.49e-04
+2025-05-25 01:03:09,504 - INFO - Step 1710 | Batch 90/180 | Train Loss: 1.4273 | LR: 7.49e-04
+2025-05-25 01:04:07,955 - INFO - Step 1720 | Batch 100/180 | Train Loss: 2.2825 | LR: 7.49e-04
+2025-05-25 01:05:06,330 - INFO - Step 1730 | Batch 110/180 | Train Loss: 1.1857 | LR: 7.49e-04
+2025-05-25 01:06:05,612 - INFO - Step 1740 | Batch 120/180 | Train Loss: 0.4852 | LR: 7.49e-04
+2025-05-25 01:07:05,494 - INFO - Step 1750 | Batch 130/180 | Train Loss: 0.4692 | LR: 7.49e-04
+2025-05-25 01:08:03,945 - INFO - Step 1760 | Batch 140/180 | Train Loss: 0.9136 | LR: 7.49e-04
+2025-05-25 01:09:01,340 - INFO - Step 1770 | Batch 150/180 | Train Loss: 2.9679 | LR: 7.49e-04
+2025-05-25 01:10:00,517 - INFO - Step 1780 | Batch 160/180 | Train Loss: 1.2281 | LR: 7.49e-04
+2025-05-25 01:10:58,152 - INFO - Step 1790 | Batch 170/180 | Train Loss: 0.7067 | LR: 7.49e-04
+2025-05-25 01:11:50,882 - INFO - Step 1800 | Batch 180/180 | Train Loss: 0.3045 | LR: 7.49e-04
+2025-05-25 01:15:39,796 - INFO - Validation Loss: 0.9216
+2025-05-25 01:15:40,942 - INFO - Epoch 10/50 Summary:
+2025-05-25 01:15:40,943 - INFO - Train Loss: 1.1655 | Val Loss: 1.9056 | Best Val Loss: 0.9597
+2025-05-25 01:15:40,943 - INFO - --------------------------------------------------
+2025-05-25 01:15:40,946 - INFO - Epoch 11/50 | Learning Rate: 7.35e-04
+2025-05-25 01:16:37,998 - INFO - Step 1810 | Batch 10/180 | Train Loss: 2.2716 | LR: 7.35e-04
+2025-05-25 01:17:28,438 - INFO - Step 1820 | Batch 20/180 | Train Loss: 0.6471 | LR: 7.35e-04
+2025-05-25 01:18:19,261 - INFO - Step 1830 | Batch 30/180 | Train Loss: 0.9377 | LR: 7.35e-04
+2025-05-25 01:19:17,473 - INFO - Step 1840 | Batch 40/180 | Train Loss: 0.5074 | LR: 7.35e-04
+2025-05-25 01:20:15,680 - INFO - Step 1850 | Batch 50/180 | Train Loss: 0.6920 | LR: 7.35e-04
+2025-05-25 01:21:15,079 - INFO - Step 1860 | Batch 60/180 | Train Loss: 1.0358 | LR: 7.35e-04
+2025-05-25 01:22:13,054 - INFO - Step 1870 | Batch 70/180 | Train Loss: 1.2569 | LR: 7.35e-04
+2025-05-25 01:23:11,033 - INFO - Step 1880 | Batch 80/180 | Train Loss: 0.2978 | LR: 7.35e-04
+2025-05-25 01:24:08,208 - INFO - Step 1890 | Batch 90/180 | Train Loss: 0.8261 | LR: 7.35e-04
+2025-05-25 01:25:04,807 - INFO - Step 1900 | Batch 100/180 | Train Loss: 0.9902 | LR: 7.35e-04
+2025-05-25 01:26:02,883 - INFO - Step 1910 | Batch 110/180 | Train Loss: 1.4389 | LR: 7.35e-04
+2025-05-25 01:27:00,184 - INFO - Step 1920 | Batch 120/180 | Train Loss: 0.2195 | LR: 7.35e-04
+2025-05-25 01:27:58,882 - INFO - Step 1930 | Batch 130/180 | Train Loss: 1.7675 | LR: 7.35e-04
+2025-05-25 01:28:56,462 - INFO - Step 1940 | Batch 140/180 | Train Loss: 0.4012 | LR: 7.35e-04
+2025-05-25 01:29:54,182 - INFO - Step 1950 | Batch 150/180 | Train Loss: 1.1644 | LR: 7.35e-04
+2025-05-25 01:30:54,516 - INFO - Step 1960 | Batch 160/180 | Train Loss: 1.0486 | LR: 7.35e-04
+2025-05-25 01:31:52,881 - INFO - Step 1970 | Batch 170/180 | Train Loss: 0.9258 | LR: 7.35e-04
+2025-05-25 01:32:46,438 - INFO - Step 1980 | Batch 180/180 | Train Loss: 4.2939 | LR: 7.35e-04
+2025-05-25 01:36:38,638 - INFO - Validation Loss: 0.9393
+2025-05-25 01:36:41,488 - INFO - Epoch 11/50 Summary:
+2025-05-25 01:36:41,490 - INFO - Train Loss: 1.0325 | Val Loss: 1.9422 | Best Val Loss: 0.9597
+2025-05-25 01:36:41,490 - INFO - --------------------------------------------------
+2025-05-25 01:36:41,493 - INFO - Epoch 12/50 | Learning Rate: 7.21e-04
+2025-05-25 01:37:41,515 - INFO - Step 1990 | Batch 10/180 | Train Loss: 1.9004 | LR: 7.21e-04
+2025-05-25 01:38:40,112 - INFO - Step 2000 | Batch 20/180 | Train Loss: 0.3481 | LR: 7.21e-04
+2025-05-25 01:39:39,405 - INFO - Step 2010 | Batch 30/180 | Train Loss: 0.5328 | LR: 7.21e-04
+2025-05-25 01:40:38,313 - INFO - Step 2020 | Batch 40/180 | Train Loss: 0.7003 | LR: 7.21e-04
+2025-05-25 01:41:35,364 - INFO - Step 2030 | Batch 50/180 | Train Loss: 1.5496 | LR: 7.21e-04
+2025-05-25 01:42:32,526 - INFO - Step 2040 | Batch 60/180 | Train Loss: 0.7545 | LR: 7.21e-04
+2025-05-25 01:43:20,881 - INFO - Step 2050 | Batch 70/180 | Train Loss: 1.0095 | LR: 7.21e-04
+2025-05-25 01:44:19,555 - INFO - Step 2060 | Batch 80/180 | Train Loss: 0.3847 | LR: 7.21e-04
+2025-05-25 01:45:20,332 - INFO - Step 2070 | Batch 90/180 | Train Loss: 0.8854 | LR: 7.21e-04
+2025-05-25 01:46:16,517 - INFO - Step 2080 | Batch 100/180 | Train Loss: 0.6201 | LR: 7.21e-04
+2025-05-25 01:47:14,475 - INFO - Step 2090 | Batch 110/180 | Train Loss: 0.9495 | LR: 7.21e-04
+2025-05-25 01:48:13,400 - INFO - Step 2100 | Batch 120/180 | Train Loss: 1.0377 | LR: 7.21e-04
+2025-05-25 01:49:12,341 - INFO - Step 2110 | Batch 130/180 | Train Loss: 0.5778 | LR: 7.21e-04
+2025-05-25 01:50:05,237 - INFO - Step 2120 | Batch 140/180 | Train Loss: 1.0070 | LR: 7.21e-04
+2025-05-25 01:51:05,042 - INFO - Step 2130 | Batch 150/180 | Train Loss: 1.0085 | LR: 7.21e-04
+2025-05-25 01:52:03,493 - INFO - Step 2140 | Batch 160/180 | Train Loss: 0.8925 | LR: 7.21e-04
+2025-05-25 01:53:03,123 - INFO - Step 2150 | Batch 170/180 | Train Loss: 0.8504 | LR: 7.21e-04
+2025-05-25 01:53:53,100 - INFO - Step 2160 | Batch 180/180 | Train Loss: 1.3401 | LR: 7.21e-04
+2025-05-25 01:57:48,392 - INFO - Validation Loss: 0.9142
+2025-05-25 01:57:49,197 - INFO - Epoch 12/50 Summary:
+2025-05-25 01:57:49,197 - INFO - Train Loss: 1.0296 | Val Loss: 2.2453 | Best Val Loss: 0.9597
+2025-05-25 01:57:49,199 - INFO - --------------------------------------------------
+2025-05-25 01:57:49,205 - INFO - Epoch 13/50 | Learning Rate: 7.05e-04
+2025-05-25 01:58:40,968 - INFO - Step 2170 | Batch 10/180 | Train Loss: 0.3121 | LR: 7.05e-04
+2025-05-25 01:59:40,058 - INFO - Step 2180 | Batch 20/180 | Train Loss: 3.1590 | LR: 7.05e-04
+2025-05-25 02:00:41,841 - INFO - Step 2190 | Batch 30/180 | Train Loss: 1.0895 | LR: 7.05e-04
+2025-05-25 02:01:31,620 - INFO - Step 2200 | Batch 40/180 | Train Loss: 2.0840 | LR: 7.05e-04
+2025-05-25 02:02:26,914 - INFO - Step 2210 | Batch 50/180 | Train Loss: 0.9759 | LR: 7.05e-04
+2025-05-25 02:03:16,560 - INFO - Step 2220 | Batch 60/180 | Train Loss: 0.3759 | LR: 7.05e-04
+2025-05-25 02:04:11,927 - INFO - Step 2230 | Batch 70/180 | Train Loss: 0.1838 | LR: 7.05e-04
+2025-05-25 02:05:09,262 - INFO - Step 2240 | Batch 80/180 | Train Loss: 1.7695 | LR: 7.05e-04
+2025-05-25 02:06:08,730 - INFO - Step 2250 | Batch 90/180 | Train Loss: 0.8635 | LR: 7.05e-04
+2025-05-25 02:07:04,579 - INFO - Step 2260 | Batch 100/180 | Train Loss: 0.4340 | LR: 7.05e-04
+2025-05-25 02:08:04,425 - INFO - Step 2270 | Batch 110/180 | Train Loss: 0.5322 | LR: 7.05e-04
+2025-05-25 02:08:54,585 - INFO - Step 2280 | Batch 120/180 | Train Loss: 0.2805 | LR: 7.05e-04
+2025-05-25 02:09:49,511 - INFO - Step 2290 | Batch 130/180 | Train Loss: 1.6300 | LR: 7.05e-04
+2025-05-25 02:10:48,010 - INFO - Step 2300 | Batch 140/180 | Train Loss: 0.9805 | LR: 7.05e-04
+2025-05-25 02:11:46,079 - INFO - Step 2310 | Batch 150/180 | Train Loss: 0.7762 | LR: 7.05e-04
+2025-05-25 02:12:43,937 - INFO - Step 2320 | Batch 160/180 | Train Loss: 0.7897 | LR: 7.05e-04
+2025-05-25 02:13:41,656 - INFO - Step 2330 | Batch 170/180 | Train Loss: 0.4139 | LR: 7.05e-04
+2025-05-25 02:14:35,631 - INFO - Step 2340 | Batch 180/180 | Train Loss: 0.0489 | LR: 7.05e-04
+2025-05-25 02:18:35,128 - INFO - Validation Loss: 0.9245
+2025-05-25 02:18:36,315 - INFO - Epoch 13/50 Summary:
+2025-05-25 02:18:36,315 - INFO - Train Loss: 1.0411 | Val Loss: 3.7443 | Best Val Loss: 0.9597
+2025-05-25 02:18:36,316 - INFO - --------------------------------------------------
+2025-05-25 02:18:36,319 - INFO - Epoch 14/50 | Learning Rate: 6.87e-04
+2025-05-25 02:19:35,158 - INFO - Step 2350 | Batch 10/180 | Train Loss: 1.0145 | LR: 6.87e-04
+2025-05-25 02:20:34,651 - INFO - Step 2360 | Batch 20/180 | Train Loss: 0.7707 | LR: 6.87e-04
+2025-05-25 02:21:34,503 - INFO - Step 2370 | Batch 30/180 | Train Loss: 1.7155 | LR: 6.87e-04
+2025-05-25 02:22:33,405 - INFO - Step 2380 | Batch 40/180 | Train Loss: 0.3421 | LR: 6.87e-04
+2025-05-25 02:23:32,189 - INFO - Step 2390 | Batch 50/180 | Train Loss: 0.8895 | LR: 6.87e-04
+2025-05-25 02:24:31,148 - INFO - Step 2400 | Batch 60/180 | Train Loss: 1.6629 | LR: 6.87e-04
+2025-05-25 02:25:30,031 - INFO - Step 2410 | Batch 70/180 | Train Loss: 0.4649 | LR: 6.87e-04
+2025-05-25 02:26:28,272 - INFO - Step 2420 | Batch 80/180 | Train Loss: 0.1269 | LR: 6.87e-04
+2025-05-25 02:27:27,105 - INFO - Step 2430 | Batch 90/180 | Train Loss: 2.3384 | LR: 6.87e-04
+2025-05-25 02:28:25,418 - INFO - Step 2440 | Batch 100/180 | Train Loss: 0.8646 | LR: 6.87e-04
+2025-05-25 02:29:23,980 - INFO - Step 2450 | Batch 110/180 | Train Loss: 1.0387 | LR: 6.87e-04
+2025-05-25 02:30:24,699 - INFO - Step 2460 | Batch 120/180 | Train Loss: 0.5362 | LR: 6.87e-04
+2025-05-25 02:31:24,086 - INFO - Step 2470 | Batch 130/180 | Train Loss: 1.8672 | LR: 6.87e-04
+2025-05-25 02:32:23,480 - INFO - Step 2480 | Batch 140/180 | Train Loss: 3.2359 | LR: 6.87e-04
+2025-05-25 02:33:21,890 - INFO - Step 2490 | Batch 150/180 | Train Loss: 0.8770 | LR: 6.87e-04
+2025-05-25 02:34:20,619 - INFO - Step 2500 | Batch 160/180 | Train Loss: 0.5255 | LR: 6.87e-04
+2025-05-25 02:35:20,052 - INFO - Step 2510 | Batch 170/180 | Train Loss: 1.7068 | LR: 6.87e-04
+2025-05-25 02:36:15,610 - INFO - Step 2520 | Batch 180/180 | Train Loss: 0.2806 | LR: 6.87e-04
+2025-05-25 02:40:08,907 - INFO - Validation Loss: 1.0481
+2025-05-25 02:40:09,724 - INFO - Epoch 14/50 Summary:
+2025-05-25 02:40:09,730 - INFO - Train Loss: 1.0452 | Val Loss: 3.3187 | Best Val Loss: 0.9597
+2025-05-25 02:40:09,731 - INFO - --------------------------------------------------
+2025-05-25 02:40:09,735 - INFO - Epoch 15/50 | Learning Rate: 6.69e-04
+2025-05-25 02:41:07,037 - INFO - Step 2530 | Batch 10/180 | Train Loss: 0.3432 | LR: 6.69e-04
+2025-05-25 02:42:04,734 - INFO - Step 2540 | Batch 20/180 | Train Loss: 1.8707 | LR: 6.69e-04
+2025-05-25 02:43:04,819 - INFO - Step 2550 | Batch 30/180 | Train Loss: 0.6622 | LR: 6.69e-04
+2025-05-25 02:44:03,669 - INFO - Step 2560 | Batch 40/180 | Train Loss: 1.3782 | LR: 6.69e-04
+2025-05-25 02:45:02,372 - INFO - Step 2570 | Batch 50/180 | Train Loss: 1.3399 | LR: 6.69e-04
+2025-05-25 02:46:00,674 - INFO - Step 2580 | Batch 60/180 | Train Loss: 0.2068 | LR: 6.69e-04
+2025-05-25 02:46:59,287 - INFO - Step 2590 | Batch 70/180 | Train Loss: 1.2244 | LR: 6.69e-04
+2025-05-25 02:47:58,926 - INFO - Step 2600 | Batch 80/180 | Train Loss: 1.0679 | LR: 6.69e-04
+2025-05-25 02:48:57,425 - INFO - Step 2610 | Batch 90/180 | Train Loss: 1.8786 | LR: 6.69e-04
+2025-05-25 02:49:55,563 - INFO - Step 2620 | Batch 100/180 | Train Loss: 0.5876 | LR: 6.69e-04
+2025-05-25 02:50:54,914 - INFO - Step 2630 | Batch 110/180 | Train Loss: 0.6421 | LR: 6.69e-04
+2025-05-25 02:51:53,979 - INFO - Step 2640 | Batch 120/180 | Train Loss: 0.1036 | LR: 6.69e-04
+2025-05-25 02:52:52,455 - INFO - Step 2650 | Batch 130/180 | Train Loss: 1.2148 | LR: 6.69e-04
+2025-05-25 02:53:49,745 - INFO - Step 2660 | Batch 140/180 | Train Loss: 3.3962 | LR: 6.69e-04
+2025-05-25 02:54:48,512 - INFO - Step 2670 | Batch 150/180 | Train Loss: 1.5081 | LR: 6.69e-04
+2025-05-25 02:55:47,457 - INFO - Step 2680 | Batch 160/180 | Train Loss: 0.6020 | LR: 6.69e-04
+2025-05-25 02:56:45,954 - INFO - Step 2690 | Batch 170/180 | Train Loss: 0.6962 | LR: 6.69e-04
+2025-05-25 02:57:39,856 - INFO - Step 2700 | Batch 180/180 | Train Loss: 3.7574 | LR: 6.69e-04
+2025-05-25 03:01:38,399 - INFO - Validation Loss: 1043.2577
+2025-05-25 03:01:40,877 - INFO - Epoch 15/50 Summary:
+2025-05-25 03:01:40,885 - INFO - Train Loss: 1.0990 | Val Loss: 135.3127 | Best Val Loss: 0.9597
+2025-05-25 03:01:40,886 - INFO - --------------------------------------------------
+2025-05-25 03:01:40,890 - INFO - Epoch 16/50 | Learning Rate: 6.49e-04
+2025-05-25 03:02:38,959 - INFO - Step 2710 | Batch 10/180 | Train Loss: 1.6374 | LR: 6.49e-04
+2025-05-25 03:03:38,912 - INFO - Step 2720 | Batch 20/180 | Train Loss: 3.1811 | LR: 6.49e-04
+2025-05-25 03:04:37,044 - INFO - Step 2730 | Batch 30/180 | Train Loss: 0.9534 | LR: 6.49e-04
+2025-05-25 03:05:35,561 - INFO - Step 2740 | Batch 40/180 | Train Loss: 0.7289 | LR: 6.49e-04
+2025-05-25 03:06:33,793 - INFO - Step 2750 | Batch 50/180 | Train Loss: 1.2542 | LR: 6.49e-04
+2025-05-25 03:07:32,856 - INFO - Step 2760 | Batch 60/180 | Train Loss: 2.2629 | LR: 6.49e-04
+2025-05-25 03:08:31,394 - INFO - Step 2770 | Batch 70/180 | Train Loss: 0.6296 | LR: 6.49e-04
+2025-05-25 03:09:30,972 - INFO - Step 2780 | Batch 80/180 | Train Loss: 0.6225 | LR: 6.49e-04
+2025-05-25 03:10:30,226 - INFO - Step 2790 | Batch 90/180 | Train Loss: 0.5478 | LR: 6.49e-04
+2025-05-25 03:11:27,487 - INFO - Step 2800 | Batch 100/180 | Train Loss: 1.0533 | LR: 6.49e-04
+2025-05-25 03:12:25,230 - INFO - Step 2810 | Batch 110/180 | Train Loss: 0.8930 | LR: 6.49e-04
+2025-05-25 03:13:25,038 - INFO - Step 2820 | Batch 120/180 | Train Loss: 2.2470 | LR: 6.49e-04
+2025-05-25 03:14:22,683 - INFO - Step 2830 | Batch 130/180 | Train Loss: 0.4771 | LR: 6.49e-04
+2025-05-25 03:15:22,888 - INFO - Step 2840 | Batch 140/180 | Train Loss: 0.6426 | LR: 6.49e-04
+2025-05-25 03:16:18,536 - INFO - Step 2850 | Batch 150/180 | Train Loss: 0.6826 | LR: 6.49e-04
+2025-05-25 03:17:11,327 - INFO - Step 2860 | Batch 160/180 | Train Loss: 1.5362 | LR: 6.49e-04
+2025-05-25 03:18:02,282 - INFO - Step 2870 | Batch 170/180 | Train Loss: 14.4021 | LR: 6.49e-04
+2025-05-25 03:18:44,346 - INFO - Step 2880 | Batch 180/180 | Train Loss: 163.8744 | LR: 6.49e-04
+2025-05-25 03:21:31,624 - INFO - Validation Loss: 224.5717
+2025-05-25 03:21:32,362 - INFO - Epoch 16/50 Summary:
+2025-05-25 03:21:32,362 - INFO - Train Loss: 16.8948 | Val Loss: 31.4194 | Best Val Loss: 0.9597
+2025-05-25 03:21:32,362 - INFO - --------------------------------------------------
+2025-05-25 03:21:32,365 - INFO - Epoch 17/50 | Learning Rate: 6.29e-04
+2025-05-25 03:22:12,687 - INFO - Step 2890 | Batch 10/180 | Train Loss: 8.2047 | LR: 6.29e-04
+2025-05-25 03:22:57,051 - INFO - Step 2900 | Batch 20/180 | Train Loss: 2.3907 | LR: 6.29e-04
+2025-05-25 03:23:40,182 - INFO - Step 2910 | Batch 30/180 | Train Loss: 2.3962 | LR: 6.29e-04
+2025-05-25 03:24:24,178 - INFO - Step 2920 | Batch 40/180 | Train Loss: 6.7874 | LR: 6.29e-04
+2025-05-25 03:25:05,808 - INFO - Step 2930 | Batch 50/180 | Train Loss: 2.2387 | LR: 6.29e-04
+2025-05-25 03:25:50,346 - INFO - Step 2940 | Batch 60/180 | Train Loss: 1.3929 | LR: 6.29e-04
+2025-05-25 03:26:33,813 - INFO - Step 2950 | Batch 70/180 | Train Loss: 2.8993 | LR: 6.29e-04
+2025-05-25 03:27:16,953 - INFO - Step 2960 | Batch 80/180 | Train Loss: 6.2905 | LR: 6.29e-04
+2025-05-25 03:28:01,210 - INFO - Step 2970 | Batch 90/180 | Train Loss: 2.1378 | LR: 6.29e-04
+2025-05-25 03:28:44,789 - INFO - Step 2980 | Batch 100/180 | Train Loss: 7.0223 | LR: 6.29e-04
+2025-05-25 03:29:28,349 - INFO - Step 2990 | Batch 110/180 | Train Loss: 1.9927 | LR: 6.29e-04
+2025-05-25 03:30:12,429 - INFO - Step 3000 | Batch 120/180 | Train Loss: 3.2447 | LR: 6.29e-04
+2025-05-25 03:30:54,629 - INFO - Step 3010 | Batch 130/180 | Train Loss: 0.7137 | LR: 6.29e-04
+2025-05-25 03:31:32,635 - INFO - Step 3020 | Batch 140/180 | Train Loss: 1.8488 | LR: 6.29e-04
+2025-05-25 03:32:09,328 - INFO - Step 3030 | Batch 150/180 | Train Loss: 0.9603 | LR: 6.29e-04
+2025-05-25 03:32:46,699 - INFO - Step 3040 | Batch 160/180 | Train Loss: 0.8879 | LR: 6.29e-04
+2025-05-25 03:33:24,793 - INFO - Step 3050 | Batch 170/180 | Train Loss: 3.5781 | LR: 6.29e-04
+2025-05-25 03:33:57,981 - INFO - Step 3060 | Batch 180/180 | Train Loss: 9.4337 | LR: 6.29e-04
+2025-05-25 03:36:21,952 - INFO - Validation Loss: 0.9857
+2025-05-25 03:36:22,239 - INFO - Epoch 17/50 Summary:
+2025-05-25 03:36:22,240 - INFO - Train Loss: 3.1162 | Val Loss: 4.0617 | Best Val Loss: 0.9597
+2025-05-25 03:36:22,240 - INFO - --------------------------------------------------
+2025-05-25 03:36:22,244 - INFO - Epoch 18/50 | Learning Rate: 6.07e-04
+2025-05-25 03:36:59,799 - INFO - Step 3070 | Batch 10/180 | Train Loss: 1.2718 | LR: 6.07e-04
+2025-05-25 03:37:38,423 - INFO - Step 3080 | Batch 20/180 | Train Loss: 0.4056 | LR: 6.07e-04
+2025-05-25 03:38:14,400 - INFO - Step 3090 | Batch 30/180 | Train Loss: 0.2388 | LR: 6.07e-04
+2025-05-25 03:38:52,746 - INFO - Step 3100 | Batch 40/180 | Train Loss: 0.5171 | LR: 6.07e-04
+2025-05-25 03:39:31,171 - INFO - Step 3110 | Batch 50/180 | Train Loss: 1.1170 | LR: 6.07e-04
+2025-05-25 03:40:08,907 - INFO - Step 3120 | Batch 60/180 | Train Loss: 1.9849 | LR: 6.07e-04
+2025-05-25 03:40:48,121 - INFO - Step 3130 | Batch 70/180 | Train Loss: 0.8951 | LR: 6.07e-04
+2025-05-25 03:41:26,697 - INFO - Step 3140 | Batch 80/180 | Train Loss: 1.4302 | LR: 6.07e-04
+2025-05-25 03:42:05,002 - INFO - Step 3150 | Batch 90/180 | Train Loss: 1.4764 | LR: 6.07e-04
+2025-05-25 03:42:44,515 - INFO - Step 3160 | Batch 100/180 | Train Loss: 0.9508 | LR: 6.07e-04
+2025-05-25 03:43:23,766 - INFO - Step 3170 | Batch 110/180 | Train Loss: 0.7192 | LR: 6.07e-04
+2025-05-25 03:44:01,693 - INFO - Step 3180 | Batch 120/180 | Train Loss: 0.8930 | LR: 6.07e-04
+2025-05-25 03:44:40,191 - INFO - Step 3190 | Batch 130/180 | Train Loss: 0.2928 | LR: 6.07e-04
+2025-05-25 03:45:18,789 - INFO - Step 3200 | Batch 140/180 | Train Loss: 0.4673 | LR: 6.07e-04
+2025-05-25 03:45:57,293 - INFO - Step 3210 | Batch 150/180 | Train Loss: 1.4468 | LR: 6.07e-04
+2025-05-25 03:46:36,678 - INFO - Step 3220 | Batch 160/180 | Train Loss: 1.0018 | LR: 6.07e-04
+2025-05-25 03:47:13,922 - INFO - Step 3230 | Batch 170/180 | Train Loss: 2.4095 | LR: 6.07e-04
+2025-05-25 03:47:49,520 - INFO - Step 3240 | Batch 180/180 | Train Loss: 0.3486 | LR: 6.07e-04
+2025-05-25 03:50:13,315 - INFO - Validation Loss: 1.5017
+2025-05-25 03:50:14,022 - INFO - Epoch 18/50 Summary:
+2025-05-25 03:50:14,022 - INFO - Train Loss: 1.2694 | Val Loss: 4.8273 | Best Val Loss: 0.9597
+2025-05-25 03:50:14,023 - INFO - --------------------------------------------------
+2025-05-25 03:50:14,025 - INFO - Epoch 19/50 | Learning Rate: 5.85e-04
+2025-05-25 03:50:54,165 - INFO - Step 3250 | Batch 10/180 | Train Loss: 0.8683 | LR: 5.85e-04
+2025-05-25 03:51:33,030 - INFO - Step 3260 | Batch 20/180 | Train Loss: 1.2187 | LR: 5.85e-04
+2025-05-25 03:52:09,966 - INFO - Step 3270 | Batch 30/180 | Train Loss: 1.2368 | LR: 5.85e-04
+2025-05-25 03:52:49,055 - INFO - Step 3280 | Batch 40/180 | Train Loss: 0.1300 | LR: 5.85e-04
+2025-05-25 03:53:28,417 - INFO - Step 3290 | Batch 50/180 | Train Loss: 2.0211 | LR: 5.85e-04
+2025-05-25 03:54:03,909 - INFO - Step 3300 | Batch 60/180 | Train Loss: 2.1594 | LR: 5.85e-04
+2025-05-25 03:54:43,435 - INFO - Step 3310 | Batch 70/180 | Train Loss: 1.0737 | LR: 5.85e-04
+2025-05-25 03:55:22,023 - INFO - Step 3320 | Batch 80/180 | Train Loss: 0.7890 | LR: 5.85e-04
+2025-05-25 03:55:58,178 - INFO - Step 3330 | Batch 90/180 | Train Loss: 2.0727 | LR: 5.85e-04
+2025-05-25 03:56:37,950 - INFO - Step 3340 | Batch 100/180 | Train Loss: 0.9132 | LR: 5.85e-04
+2025-05-25 03:57:14,298 - INFO - Step 3350 | Batch 110/180 | Train Loss: 1.1563 | LR: 5.85e-04
+2025-05-25 03:57:52,654 - INFO - Step 3360 | Batch 120/180 | Train Loss: 0.8453 | LR: 5.85e-04
+2025-05-25 03:58:30,667 - INFO - Step 3370 | Batch 130/180 | Train Loss: 1.5884 | LR: 5.85e-04
+2025-05-25 03:59:08,089 - INFO - Step 3380 | Batch 140/180 | Train Loss: 1.4281 | LR: 5.85e-04
+2025-05-25 03:59:46,622 - INFO - Step 3390 | Batch 150/180 | Train Loss: 0.1667 | LR: 5.85e-04
+2025-05-25 04:00:27,525 - INFO - Step 3400 | Batch 160/180 | Train Loss: 0.8087 | LR: 5.85e-04
+2025-05-25 04:01:04,051 - INFO - Step 3410 | Batch 170/180 | Train Loss: 0.7506 | LR: 5.85e-04
+2025-05-25 04:01:38,680 - INFO - Step 3420 | Batch 180/180 | Train Loss: 2071.7139 | LR: 5.85e-04
+2025-05-25 04:04:00,752 - INFO - Validation Loss: 87975.8659
+2025-05-25 04:04:02,674 - INFO - Epoch 19/50 Summary:
+2025-05-25 04:04:02,675 - INFO - Train Loss: 12.7622 | Val Loss: 11001.5879 | Best Val Loss: 0.9597
+2025-05-25 04:04:02,675 - INFO - --------------------------------------------------
+2025-05-25 04:04:02,679 - INFO - Epoch 20/50 | Learning Rate: 5.62e-04
+2025-05-25 04:04:41,002 - INFO - Step 3430 | Batch 10/180 | Train Loss: 4.5474 | LR: 5.62e-04
+2025-05-25 04:05:15,697 - INFO - Step 3440 | Batch 20/180 | Train Loss: 2.4009 | LR: 5.62e-04
+2025-05-25 04:05:47,677 - INFO - Step 3450 | Batch 30/180 | Train Loss: 4.2490 | LR: 5.62e-04
+2025-05-25 04:06:18,662 - INFO - Step 3460 | Batch 40/180 | Train Loss: 1.5084 | LR: 5.62e-04
+2025-05-25 04:06:50,465 - INFO - Step 3470 | Batch 50/180 | Train Loss: 0.6333 | LR: 5.62e-04
+2025-05-25 04:07:21,784 - INFO - Step 3480 | Batch 60/180 | Train Loss: 0.6615 | LR: 5.62e-04
+2025-05-25 04:07:53,411 - INFO - Step 3490 | Batch 70/180 | Train Loss: 1.7495 | LR: 5.62e-04
+2025-05-25 04:08:25,786 - INFO - Step 3500 | Batch 80/180 | Train Loss: 4.0079 | LR: 5.62e-04
+2025-05-25 04:08:56,203 - INFO - Step 3510 | Batch 90/180 | Train Loss: 2.0230 | LR: 5.62e-04
+2025-05-25 04:09:29,344 - INFO - Step 3520 | Batch 100/180 | Train Loss: 1.5265 | LR: 5.62e-04
+2025-05-25 04:10:00,115 - INFO - Step 3530 | Batch 110/180 | Train Loss: 1.0991 | LR: 5.62e-04
+2025-05-25 04:10:33,007 - INFO - Step 3540 | Batch 120/180 | Train Loss: 0.8155 | LR: 5.62e-04
+2025-05-25 04:11:03,517 - INFO - Step 3550 | Batch 130/180 | Train Loss: 0.8250 | LR: 5.62e-04
+2025-05-25 04:11:35,461 - INFO - Step 3560 | Batch 140/180 | Train Loss: 1.4116 | LR: 5.62e-04
+2025-05-25 04:12:06,481 - INFO - Step 3570 | Batch 150/180 | Train Loss: 0.3322 | LR: 5.62e-04
+2025-05-25 04:12:39,639 - INFO - Step 3580 | Batch 160/180 | Train Loss: 0.7449 | LR: 5.62e-04
+2025-05-25 04:13:10,518 - INFO - Step 3590 | Batch 170/180 | Train Loss: 1.9260 | LR: 5.62e-04
+2025-05-25 04:13:40,974 - INFO - Step 3600 | Batch 180/180 | Train Loss: 0.0674 | LR: 5.62e-04
+2025-05-25 04:15:38,873 - INFO - Validation Loss: 63.3379
+2025-05-25 04:15:39,248 - INFO - Epoch 20/50 Summary:
+2025-05-25 04:15:39,250 - INFO - Train Loss: 2.0116 | Val Loss: 12.4369 | Best Val Loss: 0.9597
+2025-05-25 04:15:39,250 - INFO - --------------------------------------------------
+2025-05-25 04:15:39,253 - INFO - Epoch 21/50 | Learning Rate: 5.38e-04
+2025-05-25 04:16:09,908 - INFO - Step 3610 | Batch 10/180 | Train Loss: 0.4176 | LR: 5.38e-04
+2025-05-25 04:16:42,154 - INFO - Step 3620 | Batch 20/180 | Train Loss: 3.2601 | LR: 5.38e-04
+2025-05-25 04:17:13,405 - INFO - Step 3630 | Batch 30/180 | Train Loss: 1.3642 | LR: 5.38e-04
+2025-05-25 04:17:46,000 - INFO - Step 3640 | Batch 40/180 | Train Loss: 1.4452 | LR: 5.38e-04
+2025-05-25 04:18:17,303 - INFO - Step 3650 | Batch 50/180 | Train Loss: 1.4358 | LR: 5.38e-04
+2025-05-25 04:18:50,406 - INFO - Step 3660 | Batch 60/180 | Train Loss: 1.2530 | LR: 5.38e-04
+2025-05-25 04:19:22,881 - INFO - Step 3670 | Batch 70/180 | Train Loss: 0.5825 | LR: 5.38e-04
+2025-05-25 04:19:53,840 - INFO - Step 3680 | Batch 80/180 | Train Loss: 1.5286 | LR: 5.38e-04
+2025-05-25 04:20:26,881 - INFO - Step 3690 | Batch 90/180 | Train Loss: 0.5663 | LR: 5.38e-04
+2025-05-25 04:20:57,616 - INFO - Step 3700 | Batch 100/180 | Train Loss: 1.1695 | LR: 5.38e-04
+2025-05-25 04:21:31,530 - INFO - Step 3710 | Batch 110/180 | Train Loss: 1.8718 | LR: 5.38e-04
+2025-05-25 04:22:02,770 - INFO - Step 3720 | Batch 120/180 | Train Loss: 0.5724 | LR: 5.38e-04
+2025-05-25 04:22:35,637 - INFO - Step 3730 | Batch 130/180 | Train Loss: 1.5653 | LR: 5.38e-04
+2025-05-25 04:23:06,597 - INFO - Step 3740 | Batch 140/180 | Train Loss: 1.0947 | LR: 5.38e-04
+2025-05-25 04:23:39,148 - INFO - Step 3750 | Batch 150/180 | Train Loss: 3.0595 | LR: 5.38e-04
+2025-05-25 04:24:11,050 - INFO - Step 3760 | Batch 160/180 | Train Loss: 0.7845 | LR: 5.38e-04
+2025-05-25 04:24:44,389 - INFO - Step 3770 | Batch 170/180 | Train Loss: 0.5880 | LR: 5.38e-04
+2025-05-25 04:25:12,932 - INFO - Step 3780 | Batch 180/180 | Train Loss: 0.4280 | LR: 5.38e-04
+2025-05-25 04:27:09,041 - INFO - Validation Loss: 1.2709
+2025-05-25 04:27:10,597 - INFO - Epoch 21/50 Summary:
+2025-05-25 04:27:10,598 - INFO - Train Loss: 1.3381 | Val Loss: 5.4231 | Best Val Loss: 0.9597
+2025-05-25 04:27:10,598 - INFO - --------------------------------------------------
+2025-05-25 04:27:10,601 - INFO - Epoch 22/50 | Learning Rate: 5.14e-04
+2025-05-25 04:27:43,237 - INFO - Step 3790 | Batch 10/180 | Train Loss: 3.0068 | LR: 5.14e-04
+2025-05-25 04:28:14,184 - INFO - Step 3800 | Batch 20/180 | Train Loss: 0.6671 | LR: 5.14e-04
+2025-05-25 04:28:46,365 - INFO - Step 3810 | Batch 30/180 | Train Loss: 1.3143 | LR: 5.14e-04
+2025-05-25 04:29:16,851 - INFO - Step 3820 | Batch 40/180 | Train Loss: 2.5477 | LR: 5.14e-04
+2025-05-25 04:29:49,872 - INFO - Step 3830 | Batch 50/180 | Train Loss: 1.1789 | LR: 5.14e-04
+2025-05-25 04:30:25,331 - INFO - Step 3840 | Batch 60/180 | Train Loss: 1.1835 | LR: 5.14e-04
+2025-05-25 04:30:57,059 - INFO - Step 3850 | Batch 70/180 | Train Loss: 1.2247 | LR: 5.14e-04
+2025-05-25 04:31:29,527 - INFO - Step 3860 | Batch 80/180 | Train Loss: 0.1861 | LR: 5.14e-04
+2025-05-25 04:32:00,476 - INFO - Step 3870 | Batch 90/180 | Train Loss: 1.8477 | LR: 5.14e-04
+2025-05-25 04:32:33,600 - INFO - Step 3880 | Batch 100/180 | Train Loss: 1.4777 | LR: 5.14e-04
+2025-05-25 04:33:05,749 - INFO - Step 3890 | Batch 110/180 | Train Loss: 1.4426 | LR: 5.14e-04
+2025-05-25 04:33:40,283 - INFO - Step 3900 | Batch 120/180 | Train Loss: 1.2903 | LR: 5.14e-04
+2025-05-25 04:34:12,032 - INFO - Step 3910 | Batch 130/180 | Train Loss: 2.9146 | LR: 5.14e-04
+2025-05-25 04:34:45,641 - INFO - Step 3920 | Batch 140/180 | Train Loss: 2.4267 | LR: 5.14e-04
+2025-05-25 04:35:17,136 - INFO - Step 3930 | Batch 150/180 | Train Loss: 2.1119 | LR: 5.14e-04
+2025-05-25 04:35:50,469 - INFO - Step 3940 | Batch 160/180 | Train Loss: 0.6252 | LR: 5.14e-04
+2025-05-25 04:36:24,933 - INFO - Step 3950 | Batch 170/180 | Train Loss: 1.0822 | LR: 5.14e-04
+2025-05-25 04:36:53,801 - INFO - Step 3960 | Batch 180/180 | Train Loss: 0.5963 | LR: 5.14e-04
+2025-05-25 04:38:49,997 - INFO - Validation Loss: 62.8792
+2025-05-25 04:38:51,039 - INFO - Epoch 22/50 Summary:
+2025-05-25 04:38:51,039 - INFO - Train Loss: 1.3018 | Val Loss: 13.1841 | Best Val Loss: 0.9597
+2025-05-25 04:38:51,039 - INFO - --------------------------------------------------
+2025-05-25 04:38:51,042 - INFO - Epoch 23/50 | Learning Rate: 4.89e-04
+2025-05-25 04:39:24,531 - INFO - Step 3970 | Batch 10/180 | Train Loss: 1.3210 | LR: 4.89e-04
+2025-05-25 04:39:55,158 - INFO - Step 3980 | Batch 20/180 | Train Loss: 1.0553 | LR: 4.89e-04
+2025-05-25 04:40:28,869 - INFO - Step 3990 | Batch 30/180 | Train Loss: 1.8275 | LR: 4.89e-04
+2025-05-25 04:40:59,683 - INFO - Step 4000 | Batch 40/180 | Train Loss: 1.3913 | LR: 4.89e-04
+2025-05-25 04:41:32,452 - INFO - Step 4010 | Batch 50/180 | Train Loss: 0.7092 | LR: 4.89e-04
+2025-05-25 04:42:03,209 - INFO - Step 4020 | Batch 60/180 | Train Loss: 2.7635 | LR: 4.89e-04
+2025-05-25 04:42:36,322 - INFO - Step 4030 | Batch 70/180 | Train Loss: 0.9133 | LR: 4.89e-04
+2025-05-25 04:43:07,339 - INFO - Step 4040 | Batch 80/180 | Train Loss: 0.7096 | LR: 4.89e-04
+2025-05-25 04:43:40,486 - INFO - Step 4050 | Batch 90/180 | Train Loss: 1.7820 | LR: 4.89e-04
+2025-05-25 04:44:11,347 - INFO - Step 4060 | Batch 100/180 | Train Loss: 0.5328 | LR: 4.89e-04
+2025-05-25 04:44:44,682 - INFO - Step 4070 | Batch 110/180 | Train Loss: 0.7548 | LR: 4.89e-04
+2025-05-25 04:45:17,707 - INFO - Step 4080 | Batch 120/180 | Train Loss: 5.0768 | LR: 4.89e-04
+2025-05-25 04:45:50,695 - INFO - Step 4090 | Batch 130/180 | Train Loss: 2.1042 | LR: 4.89e-04
+2025-05-25 04:46:22,777 - INFO - Step 4100 | Batch 140/180 | Train Loss: 1.4728 | LR: 4.89e-04
+2025-05-25 04:46:53,871 - INFO - Step 4110 | Batch 150/180 | Train Loss: 0.8551 | LR: 4.89e-04
+2025-05-25 04:47:26,833 - INFO - Step 4120 | Batch 160/180 | Train Loss: 0.9512 | LR: 4.89e-04
+2025-05-25 04:47:57,890 - INFO - Step 4130 | Batch 170/180 | Train Loss: 0.6118 | LR: 4.89e-04
+2025-05-25 04:48:29,218 - INFO - Step 4140 | Batch 180/180 | Train Loss: 0.0035 | LR: 4.89e-04
+2025-05-25 04:50:29,121 - INFO - Validation Loss: 15.3341
+2025-05-25 04:50:30,356 - INFO - Epoch 23/50 Summary:
+2025-05-25 04:50:30,357 - INFO - Train Loss: 1.3028 | Val Loss: 7.8084 | Best Val Loss: 0.9597
+2025-05-25 04:50:30,357 - INFO - --------------------------------------------------
+2025-05-25 04:50:30,360 - INFO - Epoch 24/50 | Learning Rate: 4.64e-04
+2025-05-25 04:51:01,936 - INFO - Step 4150 | Batch 10/180 | Train Loss: 0.3608 | LR: 4.64e-04
+2025-05-25 04:51:36,814 - INFO - Step 4160 | Batch 20/180 | Train Loss: 0.8684 | LR: 4.64e-04
+2025-05-25 04:52:07,835 - INFO - Step 4170 | Batch 30/180 | Train Loss: 0.5183 | LR: 4.64e-04
+2025-05-25 04:52:41,034 - INFO - Step 4180 | Batch 40/180 | Train Loss: 2.2092 | LR: 4.64e-04
+2025-05-25 04:53:12,727 - INFO - Step 4190 | Batch 50/180 | Train Loss: 0.4153 | LR: 4.64e-04
+2025-05-25 04:53:45,125 - INFO - Step 4200 | Batch 60/180 | Train Loss: 1.0186 | LR: 4.64e-04
+2025-05-25 04:54:16,734 - INFO - Step 4210 | Batch 70/180 | Train Loss: 0.7935 | LR: 4.64e-04
+2025-05-25 04:54:50,391 - INFO - Step 4220 | Batch 80/180 | Train Loss: 1.1328 | LR: 4.64e-04
+2025-05-25 04:55:24,104 - INFO - Step 4230 | Batch 90/180 | Train Loss: 2.0395 | LR: 4.64e-04
+2025-05-25 04:55:56,003 - INFO - Step 4240 | Batch 100/180 | Train Loss: 1.2919 | LR: 4.64e-04
+2025-05-25 04:56:29,229 - INFO - Step 4250 | Batch 110/180 | Train Loss: 0.4665 | LR: 4.64e-04
+2025-05-25 04:57:00,551 - INFO - Step 4260 | Batch 120/180 | Train Loss: 2.1088 | LR: 4.64e-04
+2025-05-25 04:57:35,024 - INFO - Step 4270 | Batch 130/180 | Train Loss: 0.5550 | LR: 4.64e-04
+2025-05-25 04:58:06,398 - INFO - Step 4280 | Batch 140/180 | Train Loss: 0.2764 | LR: 4.64e-04
+2025-05-25 04:58:39,349 - INFO - Step 4290 | Batch 150/180 | Train Loss: 0.7524 | LR: 4.64e-04
+2025-05-25 04:59:10,581 - INFO - Step 4300 | Batch 160/180 | Train Loss: 0.2987 | LR: 4.64e-04
+2025-05-25 04:59:43,408 - INFO - Step 4310 | Batch 170/180 | Train Loss: 0.3542 | LR: 4.64e-04
+2025-05-25 05:00:13,338 - INFO - Step 4320 | Batch 180/180 | Train Loss: 0.0043 | LR: 4.64e-04
+2025-05-25 05:02:12,893 - INFO - Validation Loss: 207.7063
+2025-05-25 05:02:13,639 - INFO - Epoch 24/50 Summary:
+2025-05-25 05:02:13,640 - INFO - Train Loss: 1.0874 | Val Loss: 31.7914 | Best Val Loss: 0.9597
+2025-05-25 05:02:13,640 - INFO - --------------------------------------------------
+2025-05-25 05:02:13,643 - INFO - Epoch 25/50 | Learning Rate: 4.38e-04
+2025-05-25 05:02:47,100 - INFO - Step 4330 | Batch 10/180 | Train Loss: 1.3933 | LR: 4.38e-04
+2025-05-25 05:03:20,505 - INFO - Step 4340 | Batch 20/180 | Train Loss: 0.4714 | LR: 4.38e-04
+2025-05-25 05:03:53,400 - INFO - Step 4350 | Batch 30/180 | Train Loss: 1.6066 | LR: 4.38e-04
+2025-05-25 05:04:26,918 - INFO - Step 4360 | Batch 40/180 | Train Loss: 1.6932 | LR: 4.38e-04
+2025-05-25 05:04:57,673 - INFO - Step 4370 | Batch 50/180 | Train Loss: 1.4317 | LR: 4.38e-04
+2025-05-25 05:05:31,804 - INFO - Step 4380 | Batch 60/180 | Train Loss: 0.7137 | LR: 4.38e-04
+2025-05-25 05:06:02,764 - INFO - Step 4390 | Batch 70/180 | Train Loss: 1.7316 | LR: 4.38e-04
+2025-05-25 05:06:36,713 - INFO - Step 4400 | Batch 80/180 | Train Loss: 0.5963 | LR: 4.38e-04
+2025-05-25 05:07:07,598 - INFO - Step 4410 | Batch 90/180 | Train Loss: 1.3438 | LR: 4.38e-04
+2025-05-25 05:07:40,260 - INFO - Step 4420 | Batch 100/180 | Train Loss: 1.1470 | LR: 4.38e-04
+2025-05-25 05:08:12,032 - INFO - Step 4430 | Batch 110/180 | Train Loss: 1.0959 | LR: 4.38e-04
+2025-05-25 05:08:45,728 - INFO - Step 4440 | Batch 120/180 | Train Loss: 1.1972 | LR: 4.38e-04
+2025-05-25 05:09:19,891 - INFO - Step 4450 | Batch 130/180 | Train Loss: 0.5025 | LR: 4.38e-04
+2025-05-25 05:09:54,540 - INFO - Step 4460 | Batch 140/180 | Train Loss: 0.5176 | LR: 4.38e-04
+2025-05-25 05:10:29,815 - INFO - Step 4470 | Batch 150/180 | Train Loss: 0.8734 | LR: 4.38e-04
+2025-05-25 05:11:03,206 - INFO - Step 4480 | Batch 160/180 | Train Loss: 2.8298 | LR: 4.38e-04
+2025-05-25 05:11:37,271 - INFO - Step 4490 | Batch 170/180 | Train Loss: 1.2192 | LR: 4.38e-04
+2025-05-25 05:12:08,079 - INFO - Step 4500 | Batch 180/180 | Train Loss: 0.0570 | LR: 4.38e-04
+2025-05-25 05:14:13,781 - INFO - Validation Loss: 7.1149
+2025-05-25 05:14:15,074 - INFO - Epoch 25/50 Summary:
+2025-05-25 05:14:15,075 - INFO - Train Loss: 1.3014 | Val Loss: 7.4391 | Best Val Loss: 0.9597
+2025-05-25 05:14:15,075 - INFO - --------------------------------------------------
+2025-05-25 05:14:15,079 - INFO - Epoch 26/50 | Learning Rate: 4.13e-04
+2025-05-25 05:14:49,969 - INFO - Step 4510 | Batch 10/180 | Train Loss: 1.2268 | LR: 4.13e-04
+2025-05-25 05:15:25,333 - INFO - Step 4520 | Batch 20/180 | Train Loss: 1.2288 | LR: 4.13e-04
+2025-05-25 05:15:58,044 - INFO - Step 4530 | Batch 30/180 | Train Loss: 0.2333 | LR: 4.13e-04
+2025-05-25 05:16:32,007 - INFO - Step 4540 | Batch 40/180 | Train Loss: 0.7807 | LR: 4.13e-04
+2025-05-25 05:17:04,824 - INFO - Step 4550 | Batch 50/180 | Train Loss: 1.4621 | LR: 4.13e-04
+2025-05-25 05:17:38,546 - INFO - Step 4560 | Batch 60/180 | Train Loss: 0.8998 | LR: 4.13e-04
+2025-05-25 05:18:09,936 - INFO - Step 4570 | Batch 70/180 | Train Loss: 1.2286 | LR: 4.13e-04
+2025-05-25 05:18:43,577 - INFO - Step 4580 | Batch 80/180 | Train Loss: 1.5701 | LR: 4.13e-04
+2025-05-25 05:19:15,230 - INFO - Step 4590 | Batch 90/180 | Train Loss: 1.1291 | LR: 4.13e-04
+2025-05-25 05:19:48,330 - INFO - Step 4600 | Batch 100/180 | Train Loss: 1.0347 | LR: 4.13e-04
+2025-05-25 05:20:20,479 - INFO - Step 4610 | Batch 110/180 | Train Loss: 0.1646 | LR: 4.13e-04
+2025-05-25 05:20:53,272 - INFO - Step 4620 | Batch 120/180 | Train Loss: 1.2427 | LR: 4.13e-04
+2025-05-25 05:21:26,905 - INFO - Step 4630 | Batch 130/180 | Train Loss: 1.3934 | LR: 4.13e-04
+2025-05-25 05:21:59,229 - INFO - Step 4640 | Batch 140/180 | Train Loss: 1.3435 | LR: 4.13e-04
+2025-05-25 05:22:32,732 - INFO - Step 4650 | Batch 150/180 | Train Loss: 0.8212 | LR: 4.13e-04
+2025-05-25 05:23:04,616 - INFO - Step 4660 | Batch 160/180 | Train Loss: 1.2929 | LR: 4.13e-04
+2025-05-25 05:23:37,778 - INFO - Step 4670 | Batch 170/180 | Train Loss: 1.3043 | LR: 4.13e-04
+2025-05-25 05:24:06,969 - INFO - Step 4680 | Batch 180/180 | Train Loss: 0.1059 | LR: 4.13e-04
+2025-05-25 05:26:06,935 - INFO - Validation Loss: 697.3450
+2025-05-25 05:26:07,071 - INFO - Epoch 26/50 Summary:
+2025-05-25 05:26:07,071 - INFO - Train Loss: 1.1445 | Val Loss: 94.1873 | Best Val Loss: 0.9597
+2025-05-25 05:26:07,072 - INFO - --------------------------------------------------
+2025-05-25 05:26:07,074 - INFO - Epoch 27/50 | Learning Rate: 3.87e-04
+2025-05-25 05:26:39,735 - INFO - Step 4690 | Batch 10/180 | Train Loss: 0.6528 | LR: 3.87e-04
+2025-05-25 05:27:11,934 - INFO - Step 4700 | Batch 20/180 | Train Loss: 1.2783 | LR: 3.87e-04
+2025-05-25 05:27:46,110 - INFO - Step 4710 | Batch 30/180 | Train Loss: 0.5997 | LR: 3.87e-04
+2025-05-25 05:28:17,433 - INFO - Step 4720 | Batch 40/180 | Train Loss: 0.6322 | LR: 3.87e-04
+2025-05-25 05:28:51,486 - INFO - Step 4730 | Batch 50/180 | Train Loss: 1.3942 | LR: 3.87e-04
+2025-05-25 05:29:24,567 - INFO - Step 4740 | Batch 60/180 | Train Loss: 0.7795 | LR: 3.87e-04
+2025-05-25 05:29:56,021 - INFO - Step 4750 | Batch 70/180 | Train Loss: 1.4300 | LR: 3.87e-04
+2025-05-25 05:30:32,721 - INFO - Step 4760 | Batch 80/180 | Train Loss: 0.5967 | LR: 3.87e-04
+2025-05-25 05:31:04,344 - INFO - Step 4770 | Batch 90/180 | Train Loss: 3.6035 | LR: 3.87e-04
+2025-05-25 05:31:37,675 - INFO - Step 4780 | Batch 100/180 | Train Loss: 1.0557 | LR: 3.87e-04
+2025-05-25 05:32:09,603 - INFO - Step 4790 | Batch 110/180 | Train Loss: 0.3861 | LR: 3.87e-04
+2025-05-25 05:32:43,073 - INFO - Step 4800 | Batch 120/180 | Train Loss: 1.2267 | LR: 3.87e-04
+2025-05-25 05:33:14,930 - INFO - Step 4810 | Batch 130/180 | Train Loss: 0.2648 | LR: 3.87e-04
+2025-05-25 05:33:48,194 - INFO - Step 4820 | Batch 140/180 | Train Loss: 0.6525 | LR: 3.87e-04
+2025-05-25 05:34:20,387 - INFO - Step 4830 | Batch 150/180 | Train Loss: 1.1211 | LR: 3.87e-04
+2025-05-25 05:34:53,261 - INFO - Step 4840 | Batch 160/180 | Train Loss: 2.1375 | LR: 3.87e-04
+2025-05-25 05:35:27,385 - INFO - Step 4850 | Batch 170/180 | Train Loss: 2.1865 | LR: 3.87e-04
+2025-05-25 05:35:56,289 - INFO - Step 4860 | Batch 180/180 | Train Loss: 0.2918 | LR: 3.87e-04
+2025-05-25 05:37:54,262 - INFO - Validation Loss: 107.0900
+2025-05-25 05:37:55,171 - INFO - Epoch 27/50 Summary:
+2025-05-25 05:37:55,173 - INFO - Train Loss: 1.2095 | Val Loss: 20.5466 | Best Val Loss: 0.9597
+2025-05-25 05:37:55,173 - INFO - --------------------------------------------------
+2025-05-25 05:37:55,176 - INFO - Epoch 28/50 | Learning Rate: 3.62e-04
+2025-05-25 05:38:28,286 - INFO - Step 4870 | Batch 10/180 | Train Loss: 0.2086 | LR: 3.62e-04
+2025-05-25 05:39:00,011 - INFO - Step 4880 | Batch 20/180 | Train Loss: 0.9433 | LR: 3.62e-04
+2025-05-25 05:39:34,388 - INFO - Step 4890 | Batch 30/180 | Train Loss: 0.5390 | LR: 3.62e-04
+2025-05-25 05:40:05,091 - INFO - Step 4900 | Batch 40/180 | Train Loss: 1.3676 | LR: 3.62e-04
+2025-05-25 05:40:38,382 - INFO - Step 4910 | Batch 50/180 | Train Loss: 1.1446 | LR: 3.62e-04
+2025-05-25 05:41:09,907 - INFO - Step 4920 | Batch 60/180 | Train Loss: 1.5031 | LR: 3.62e-04
+2025-05-25 05:41:43,407 - INFO - Step 4930 | Batch 70/180 | Train Loss: 1.7641 | LR: 3.62e-04
+2025-05-25 05:42:15,600 - INFO - Step 4940 | Batch 80/180 | Train Loss: 0.6810 | LR: 3.62e-04
+2025-05-25 05:42:49,203 - INFO - Step 4950 | Batch 90/180 | Train Loss: 1.8459 | LR: 3.62e-04
+2025-05-25 05:43:21,782 - INFO - Step 4960 | Batch 100/180 | Train Loss: 1.2478 | LR: 3.62e-04
+2025-05-25 05:43:53,622 - INFO - Step 4970 | Batch 110/180 | Train Loss: 1.0192 | LR: 3.62e-04
+2025-05-25 05:44:26,845 - INFO - Step 4980 | Batch 120/180 | Train Loss: 0.9422 | LR: 3.62e-04
+2025-05-25 05:44:57,695 - INFO - Step 4990 | Batch 130/180 | Train Loss: 0.9209 | LR: 3.62e-04
+2025-05-25 05:45:33,255 - INFO - Step 5000 | Batch 140/180 | Train Loss: 0.5781 | LR: 3.62e-04
+2025-05-25 05:46:04,591 - INFO - Step 5010 | Batch 150/180 | Train Loss: 0.4905 | LR: 3.62e-04
+2025-05-25 05:46:37,498 - INFO - Step 5020 | Batch 160/180 | Train Loss: 0.5791 | LR: 3.62e-04
+2025-05-25 05:47:08,828 - INFO - Step 5030 | Batch 170/180 | Train Loss: 0.7540 | LR: 3.62e-04
+2025-05-25 05:47:39,722 - INFO - Step 5040 | Batch 180/180 | Train Loss: 11.9575 | LR: 3.62e-04
+2025-05-25 05:49:39,761 - INFO - Validation Loss: 1356.6144
+2025-05-25 05:49:39,947 - INFO - Epoch 28/50 Summary:
+2025-05-25 05:49:39,947 - INFO - Train Loss: 1.2623 | Val Loss: 176.9522 | Best Val Loss: 0.9597
+2025-05-25 05:49:39,947 - INFO - --------------------------------------------------
+2025-05-25 05:49:39,950 - INFO - Epoch 29/50 | Learning Rate: 3.36e-04
+2025-05-25 05:50:11,380 - INFO - Step 5050 | Batch 10/180 | Train Loss: 1.8615 | LR: 3.36e-04
+2025-05-25 05:50:44,640 - INFO - Step 5060 | Batch 20/180 | Train Loss: 1.3216 | LR: 3.36e-04
+2025-05-25 05:51:16,129 - INFO - Step 5070 | Batch 30/180 | Train Loss: 0.2673 | LR: 3.36e-04
+2025-05-25 05:51:50,058 - INFO - Step 5080 | Batch 40/180 | Train Loss: 0.5476 | LR: 3.36e-04
+2025-05-25 05:52:22,748 - INFO - Step 5090 | Batch 50/180 | Train Loss: 2.0609 | LR: 3.36e-04
+2025-05-25 05:52:54,604 - INFO - Step 5100 | Batch 60/180 | Train Loss: 1.5984 | LR: 3.36e-04
+2025-05-25 05:53:28,058 - INFO - Step 5110 | Batch 70/180 | Train Loss: 1.6675 | LR: 3.36e-04
+2025-05-25 05:53:59,638 - INFO - Step 5120 | Batch 80/180 | Train Loss: 0.4434 | LR: 3.36e-04
+2025-05-25 05:54:33,387 - INFO - Step 5130 | Batch 90/180 | Train Loss: 0.4613 | LR: 3.36e-04
+2025-05-25 05:55:05,005 - INFO - Step 5140 | Batch 100/180 | Train Loss: 2.3825 | LR: 3.36e-04
+2025-05-25 05:55:38,256 - INFO - Step 5150 | Batch 110/180 | Train Loss: 1.9041 | LR: 3.36e-04
+2025-05-25 05:56:09,759 - INFO - Step 5160 | Batch 120/180 | Train Loss: 0.6789 | LR: 3.36e-04
+2025-05-25 05:56:42,950 - INFO - Step 5170 | Batch 130/180 | Train Loss: 1.3280 | LR: 3.36e-04
+2025-05-25 05:57:15,232 - INFO - Step 5180 | Batch 140/180 | Train Loss: 1.2313 | LR: 3.36e-04
+2025-05-25 05:57:48,868 - INFO - Step 5190 | Batch 150/180 | Train Loss: 2.3839 | LR: 3.36e-04
+2025-05-25 05:58:20,010 - INFO - Step 5200 | Batch 160/180 | Train Loss: 0.6487 | LR: 3.36e-04
+2025-05-25 05:58:53,175 - INFO - Step 5210 | Batch 170/180 | Train Loss: 0.2376 | LR: 3.36e-04
+2025-05-25 05:59:23,766 - INFO - Step 5220 | Batch 180/180 | Train Loss: 0.2880 | LR: 3.36e-04
+2025-05-25 06:01:27,105 - INFO - Validation Loss: 63.3369
+2025-05-25 06:01:27,835 - INFO - Epoch 29/50 Summary:
+2025-05-25 06:01:27,836 - INFO - Train Loss: 1.1216 | Val Loss: 15.9334 | Best Val Loss: 0.9597
+2025-05-25 06:01:27,836 - INFO - --------------------------------------------------
+2025-05-25 06:01:27,839 - INFO - Epoch 30/50 | Learning Rate: 3.11e-04
+2025-05-25 06:01:58,846 - INFO - Step 5230 | Batch 10/180 | Train Loss: 0.9353 | LR: 3.11e-04
+2025-05-25 06:02:32,308 - INFO - Step 5240 | Batch 20/180 | Train Loss: 0.5408 | LR: 3.11e-04
+2025-05-25 06:03:03,424 - INFO - Step 5250 | Batch 30/180 | Train Loss: 1.8454 | LR: 3.11e-04
+2025-05-25 06:03:36,986 - INFO - Step 5260 | Batch 40/180 | Train Loss: 1.3132 | LR: 3.11e-04
+2025-05-25 06:04:07,975 - INFO - Step 5270 | Batch 50/180 | Train Loss: 1.3038 | LR: 3.11e-04
+2025-05-25 06:04:41,223 - INFO - Step 5280 | Batch 60/180 | Train Loss: 0.4486 | LR: 3.11e-04
+2025-05-25 06:05:13,191 - INFO - Step 5290 | Batch 70/180 | Train Loss: 1.4538 | LR: 3.11e-04
+2025-05-25 06:05:46,550 - INFO - Step 5300 | Batch 80/180 | Train Loss: 1.2004 | LR: 3.11e-04
+2025-05-25 06:06:18,050 - INFO - Step 5310 | Batch 90/180 | Train Loss: 1.0697 | LR: 3.11e-04
+2025-05-25 06:06:51,710 - INFO - Step 5320 | Batch 100/180 | Train Loss: 0.4862 | LR: 3.11e-04
+2025-05-25 06:07:24,531 - INFO - Step 5330 | Batch 110/180 | Train Loss: 0.8475 | LR: 3.11e-04
+2025-05-25 06:07:55,822 - INFO - Step 5340 | Batch 120/180 | Train Loss: 1.4357 | LR: 3.11e-04
+2025-05-25 06:08:28,910 - INFO - Step 5350 | Batch 130/180 | Train Loss: 0.9858 | LR: 3.11e-04
+2025-05-25 06:09:00,641 - INFO - Step 5360 | Batch 140/180 | Train Loss: 0.2900 | LR: 3.11e-04
+2025-05-25 06:09:34,699 - INFO - Step 5370 | Batch 150/180 | Train Loss: 0.2881 | LR: 3.11e-04
+2025-05-25 06:10:05,965 - INFO - Step 5380 | Batch 160/180 | Train Loss: 0.8192 | LR: 3.11e-04
+2025-05-25 06:10:39,100 - INFO - Step 5390 | Batch 170/180 | Train Loss: 3.3983 | LR: 3.11e-04
+2025-05-25 06:11:07,861 - INFO - Step 5400 | Batch 180/180 | Train Loss: 0.5208 | LR: 3.11e-04
+2025-05-25 06:13:08,898 - INFO - Validation Loss: 37.6068
+2025-05-25 06:13:08,911 - INFO - Epoch 30/50 Summary:
+2025-05-25 06:13:08,911 - INFO - Train Loss: 1.1334 | Val Loss: 12.9175 | Best Val Loss: 0.9597
+2025-05-25 06:13:08,911 - INFO - --------------------------------------------------
+2025-05-25 06:13:08,913 - INFO - Epoch 31/50 | Learning Rate: 2.86e-04
+2025-05-25 06:13:37,959 - INFO - Step 5410 | Batch 10/180 | Train Loss: 1.7957 | LR: 2.86e-04
+2025-05-25 06:14:05,981 - INFO - Step 5420 | Batch 20/180 | Train Loss: 1.3983 | LR: 2.86e-04
+2025-05-25 06:14:34,752 - INFO - Step 5430 | Batch 30/180 | Train Loss: 1.1705 | LR: 2.86e-04
+2025-05-25 06:15:02,482 - INFO - Step 5440 | Batch 40/180 | Train Loss: 0.2357 | LR: 2.86e-04
+2025-05-25 06:15:33,576 - INFO - Step 5450 | Batch 50/180 | Train Loss: 1.4871 | LR: 2.86e-04
+2025-05-25 06:16:01,380 - INFO - Step 5460 | Batch 60/180 | Train Loss: 1.7207 | LR: 2.86e-04
+2025-05-25 06:16:30,766 - INFO - Step 5470 | Batch 70/180 | Train Loss: 1.5813 | LR: 2.86e-04
+2025-05-25 06:16:58,674 - INFO - Step 5480 | Batch 80/180 | Train Loss: 1.3262 | LR: 2.86e-04
+2025-05-25 06:17:27,721 - INFO - Step 5490 | Batch 90/180 | Train Loss: 1.8290 | LR: 2.86e-04
+2025-05-25 06:17:56,054 - INFO - Step 5500 | Batch 100/180 | Train Loss: 2.1050 | LR: 2.86e-04
+2025-05-25 06:18:25,991 - INFO - Step 5510 | Batch 110/180 | Train Loss: 1.2346 | LR: 2.86e-04
+2025-05-25 06:18:54,583 - INFO - Step 5520 | Batch 120/180 | Train Loss: 0.8767 | LR: 2.86e-04
+2025-05-25 06:19:24,235 - INFO - Step 5530 | Batch 130/180 | Train Loss: 0.9787 | LR: 2.86e-04
+2025-05-25 06:19:51,558 - INFO - Step 5540 | Batch 140/180 | Train Loss: 2.1821 | LR: 2.86e-04
+2025-05-25 06:20:19,531 - INFO - Step 5550 | Batch 150/180 | Train Loss: 0.7960 | LR: 2.86e-04
+2025-05-25 06:20:48,451 - INFO - Step 5560 | Batch 160/180 | Train Loss: 0.6816 | LR: 2.86e-04
+2025-05-25 06:21:16,303 - INFO - Step 5570 | Batch 170/180 | Train Loss: 0.2389 | LR: 2.86e-04
+2025-05-25 06:21:42,387 - INFO - Step 5580 | Batch 180/180 | Train Loss: 1.1886 | LR: 2.86e-04
+2025-05-25 06:24:01,184 - INFO - Validation Loss: 322.2180
+2025-05-25 06:24:04,185 - INFO - Epoch 31/50 Summary:
+2025-05-25 06:24:04,190 - INFO - Train Loss: 1.1262 | Val Loss: 48.7155 | Best Val Loss: 0.9597
+2025-05-25 06:24:04,191 - INFO - --------------------------------------------------
+2025-05-25 06:24:04,195 - INFO - Epoch 32/50 | Learning Rate: 2.62e-04
+2025-05-25 06:24:57,613 - INFO - Step 5590 | Batch 10/180 | Train Loss: 1.1910 | LR: 2.62e-04
+2025-05-25 06:25:50,408 - INFO - Step 5600 | Batch 20/180 | Train Loss: 0.9335 | LR: 2.62e-04
+2025-05-25 06:26:44,369 - INFO - Step 5610 | Batch 30/180 | Train Loss: 1.2134 | LR: 2.62e-04
+2025-05-25 06:27:38,923 - INFO - Step 5620 | Batch 40/180 | Train Loss: 0.6514 | LR: 2.62e-04
+2025-05-25 06:28:33,404 - INFO - Step 5630 | Batch 50/180 | Train Loss: 3.1921 | LR: 2.62e-04
+2025-05-25 06:29:28,042 - INFO - Step 5640 | Batch 60/180 | Train Loss: 0.8015 | LR: 2.62e-04
+2025-05-25 06:30:24,656 - INFO - Step 5650 | Batch 70/180 | Train Loss: 0.7186 | LR: 2.62e-04
+2025-05-25 06:31:17,027 - INFO - Step 5660 | Batch 80/180 | Train Loss: 0.7923 | LR: 2.62e-04
+2025-05-25 06:32:10,712 - INFO - Step 5670 | Batch 90/180 | Train Loss: 1.5891 | LR: 2.62e-04
+2025-05-25 06:33:04,155 - INFO - Step 5680 | Batch 100/180 | Train Loss: 0.2723 | LR: 2.62e-04
+2025-05-25 06:33:58,259 - INFO - Step 5690 | Batch 110/180 | Train Loss: 1.2711 | LR: 2.62e-04
+2025-05-25 06:34:52,381 - INFO - Step 5700 | Batch 120/180 | Train Loss: 0.6854 | LR: 2.62e-04
+2025-05-25 06:35:47,421 - INFO - Step 5710 | Batch 130/180 | Train Loss: 1.0757 | LR: 2.62e-04
+2025-05-25 06:36:42,072 - INFO - Step 5720 | Batch 140/180 | Train Loss: 1.4486 | LR: 2.62e-04
+2025-05-25 06:37:36,581 - INFO - Step 5730 | Batch 150/180 | Train Loss: 0.4154 | LR: 2.62e-04
+2025-05-25 06:38:31,799 - INFO - Step 5740 | Batch 160/180 | Train Loss: 1.9644 | LR: 2.62e-04
+2025-05-25 06:39:26,547 - INFO - Step 5750 | Batch 170/180 | Train Loss: 0.6512 | LR: 2.62e-04
+2025-05-25 06:40:15,378 - INFO - Step 5760 | Batch 180/180 | Train Loss: 0.7988 | LR: 2.62e-04
+2025-05-25 06:43:52,585 - INFO - Validation Loss: 3492.6526
+2025-05-25 06:43:52,886 - INFO - Epoch 32/50 Summary:
+2025-05-25 06:43:52,890 - INFO - Train Loss: 1.1024 | Val Loss: 444.8152 | Best Val Loss: 0.9597
+2025-05-25 06:43:52,891 - INFO - --------------------------------------------------
+2025-05-25 06:43:52,894 - INFO - Epoch 33/50 | Learning Rate: 2.38e-04
+2025-05-25 06:44:45,556 - INFO - Step 5770 | Batch 10/180 | Train Loss: 0.7503 | LR: 2.38e-04
+2025-05-25 06:45:40,853 - INFO - Step 5780 | Batch 20/180 | Train Loss: 0.2149 | LR: 2.38e-04
+2025-05-25 06:46:33,766 - INFO - Step 5790 | Batch 30/180 | Train Loss: 1.2949 | LR: 2.38e-04
+2025-05-25 06:47:26,835 - INFO - Step 5800 | Batch 40/180 | Train Loss: 1.4636 | LR: 2.38e-04
+2025-05-25 06:48:19,247 - INFO - Step 5810 | Batch 50/180 | Train Loss: 2.1367 | LR: 2.38e-04
+2025-05-25 06:49:12,988 - INFO - Step 5820 | Batch 60/180 | Train Loss: 0.1148 | LR: 2.38e-04
+2025-05-25 06:50:07,843 - INFO - Step 5830 | Batch 70/180 | Train Loss: 1.0528 | LR: 2.38e-04
+2025-05-25 06:51:02,276 - INFO - Step 5840 | Batch 80/180 | Train Loss: 1.4384 | LR: 2.38e-04
+2025-05-25 06:51:56,458 - INFO - Step 5850 | Batch 90/180 | Train Loss: 1.5104 | LR: 2.38e-04
+2025-05-25 06:52:52,399 - INFO - Step 5860 | Batch 100/180 | Train Loss: 1.0911 | LR: 2.38e-04
+2025-05-25 06:53:45,657 - INFO - Step 5870 | Batch 110/180 | Train Loss: 0.5948 | LR: 2.38e-04
+2025-05-25 06:54:40,017 - INFO - Step 5880 | Batch 120/180 | Train Loss: 1.3062 | LR: 2.38e-04
+2025-05-25 06:55:34,982 - INFO - Step 5890 | Batch 130/180 | Train Loss: 0.6162 | LR: 2.38e-04
+2025-05-25 06:56:29,227 - INFO - Step 5900 | Batch 140/180 | Train Loss: 0.4956 | LR: 2.38e-04
+2025-05-25 06:57:23,990 - INFO - Step 5910 | Batch 150/180 | Train Loss: 0.7914 | LR: 2.38e-04
+2025-05-25 06:58:17,499 - INFO - Step 5920 | Batch 160/180 | Train Loss: 1.0160 | LR: 2.38e-04
+2025-05-25 06:59:12,038 - INFO - Step 5930 | Batch 170/180 | Train Loss: 1.2804 | LR: 2.38e-04
+2025-05-25 07:00:02,012 - INFO - Step 5940 | Batch 180/180 | Train Loss: 1.5724 | LR: 2.38e-04
+2025-05-25 07:03:43,247 - INFO - Validation Loss: 2227.2162
+2025-05-25 07:03:44,447 - INFO - Epoch 33/50 Summary:
+2025-05-25 07:03:44,449 - INFO - Train Loss: 1.1319 | Val Loss: 287.0403 | Best Val Loss: 0.9597
+2025-05-25 07:03:44,450 - INFO - --------------------------------------------------
+2025-05-25 07:03:44,453 - INFO - Epoch 34/50 | Learning Rate: 2.15e-04
+2025-05-25 07:04:39,147 - INFO - Step 5950 | Batch 10/180 | Train Loss: 1.0617 | LR: 2.15e-04
+2025-05-25 07:05:34,551 - INFO - Step 5960 | Batch 20/180 | Train Loss: 1.6185 | LR: 2.15e-04
+2025-05-25 07:06:29,143 - INFO - Step 5970 | Batch 30/180 | Train Loss: 2.6939 | LR: 2.15e-04
+2025-05-25 07:07:23,616 - INFO - Step 5980 | Batch 40/180 | Train Loss: 0.5254 | LR: 2.15e-04
+2025-05-25 07:08:17,987 - INFO - Step 5990 | Batch 50/180 | Train Loss: 0.7088 | LR: 2.15e-04
+2025-05-25 07:09:13,067 - INFO - Step 6000 | Batch 60/180 | Train Loss: 0.8614 | LR: 2.15e-04
+2025-05-25 07:10:07,877 - INFO - Step 6010 | Batch 70/180 | Train Loss: 2.0632 | LR: 2.15e-04
+2025-05-25 07:11:02,784 - INFO - Step 6020 | Batch 80/180 | Train Loss: 1.0417 | LR: 2.15e-04
+2025-05-25 07:11:57,368 - INFO - Step 6030 | Batch 90/180 | Train Loss: 1.7115 | LR: 2.15e-04
+2025-05-25 07:12:52,429 - INFO - Step 6040 | Batch 100/180 | Train Loss: 0.5895 | LR: 2.15e-04
+2025-05-25 07:13:46,211 - INFO - Step 6050 | Batch 110/180 | Train Loss: 0.8283 | LR: 2.15e-04
+2025-05-25 07:14:40,433 - INFO - Step 6060 | Batch 120/180 | Train Loss: 0.3867 | LR: 2.15e-04
+2025-05-25 07:15:35,874 - INFO - Step 6070 | Batch 130/180 | Train Loss: 1.0678 | LR: 2.15e-04
+2025-05-25 07:16:29,888 - INFO - Step 6080 | Batch 140/180 | Train Loss: 0.7784 | LR: 2.15e-04
+2025-05-25 07:17:23,715 - INFO - Step 6090 | Batch 150/180 | Train Loss: 0.8286 | LR: 2.15e-04
+2025-05-25 07:18:16,620 - INFO - Step 6100 | Batch 160/180 | Train Loss: 0.1426 | LR: 2.15e-04
+2025-05-25 07:19:11,737 - INFO - Step 6110 | Batch 170/180 | Train Loss: 1.2227 | LR: 2.15e-04
+2025-05-25 07:20:01,328 - INFO - Step 6120 | Batch 180/180 | Train Loss: 0.0149 | LR: 2.15e-04
+2025-05-25 07:23:37,339 - INFO - Validation Loss: 511.6394
+2025-05-25 07:23:38,238 - INFO - Epoch 34/50 Summary:
+2025-05-25 07:23:38,238 - INFO - Train Loss: 1.0773 | Val Loss: 72.3683 | Best Val Loss: 0.9597
+2025-05-25 07:23:38,238 - INFO - --------------------------------------------------
+2025-05-25 07:23:38,242 - INFO - Epoch 35/50 | Learning Rate: 1.93e-04
+2025-05-25 07:24:33,728 - INFO - Step 6130 | Batch 10/180 | Train Loss: 0.7551 | LR: 1.93e-04
+2025-05-25 07:25:29,568 - INFO - Step 6140 | Batch 20/180 | Train Loss: 1.0979 | LR: 1.93e-04
+2025-05-25 07:26:24,541 - INFO - Step 6150 | Batch 30/180 | Train Loss: 0.3815 | LR: 1.93e-04
+2025-05-25 07:27:18,696 - INFO - Step 6160 | Batch 40/180 | Train Loss: 0.6095 | LR: 1.93e-04
+2025-05-25 07:28:13,154 - INFO - Step 6170 | Batch 50/180 | Train Loss: 2.2645 | LR: 1.93e-04
+2025-05-25 07:29:07,630 - INFO - Step 6180 | Batch 60/180 | Train Loss: 0.2764 | LR: 1.93e-04
+2025-05-25 07:30:01,950 - INFO - Step 6190 | Batch 70/180 | Train Loss: 0.7843 | LR: 1.93e-04
+2025-05-25 07:31:00,137 - INFO - Step 6200 | Batch 80/180 | Train Loss: 1.6040 | LR: 1.93e-04
+2025-05-25 07:31:42,655 - INFO - Step 6210 | Batch 90/180 | Train Loss: 0.6604 | LR: 1.93e-04
+2025-05-25 07:32:36,724 - INFO - Step 6220 | Batch 100/180 | Train Loss: 1.5871 | LR: 1.93e-04
+2025-05-25 07:33:31,665 - INFO - Step 6230 | Batch 110/180 | Train Loss: 0.3758 | LR: 1.93e-04
+2025-05-25 07:34:26,203 - INFO - Step 6240 | Batch 120/180 | Train Loss: 1.2028 | LR: 1.93e-04
+2025-05-25 07:35:19,989 - INFO - Step 6250 | Batch 130/180 | Train Loss: 0.3934 | LR: 1.93e-04
+2025-05-25 07:36:14,964 - INFO - Step 6260 | Batch 140/180 | Train Loss: 1.5302 | LR: 1.93e-04
+2025-05-25 07:37:09,803 - INFO - Step 6270 | Batch 150/180 | Train Loss: 0.6319 | LR: 1.93e-04
+2025-05-25 07:38:03,638 - INFO - Step 6280 | Batch 160/180 | Train Loss: 0.9932 | LR: 1.93e-04
+2025-05-25 07:38:56,329 - INFO - Step 6290 | Batch 170/180 | Train Loss: 1.3373 | LR: 1.93e-04
+2025-05-25 07:39:46,056 - INFO - Step 6300 | Batch 180/180 | Train Loss: 21.2006 | LR: 1.93e-04
+2025-05-25 07:43:14,889 - INFO - Validation Loss: 1560.3932
+2025-05-25 07:43:15,841 - INFO - Epoch 35/50 Summary:
+2025-05-25 07:43:15,841 - INFO - Train Loss: 1.1546 | Val Loss: 204.1074 | Best Val Loss: 0.9597
+2025-05-25 07:43:15,841 - INFO - --------------------------------------------------
+2025-05-25 07:43:15,845 - INFO - Epoch 36/50 | Learning Rate: 1.71e-04
+2025-05-25 07:44:04,210 - INFO - Step 6310 | Batch 10/180 | Train Loss: 0.7608 | LR: 1.71e-04
+2025-05-25 07:44:44,917 - INFO - Step 6320 | Batch 20/180 | Train Loss: 1.9592 | LR: 1.71e-04
+2025-05-25 07:45:34,863 - INFO - Step 6330 | Batch 30/180 | Train Loss: 1.2584 | LR: 1.71e-04
+2025-05-25 07:46:24,089 - INFO - Step 6340 | Batch 40/180 | Train Loss: 0.5752 | LR: 1.71e-04
+2025-05-25 07:46:59,073 - INFO - Step 6350 | Batch 50/180 | Train Loss: 2.2501 | LR: 1.71e-04
+2025-05-25 07:47:47,621 - INFO - Step 6360 | Batch 60/180 | Train Loss: 1.3578 | LR: 1.71e-04
+2025-05-25 07:48:36,961 - INFO - Step 6370 | Batch 70/180 | Train Loss: 1.3342 | LR: 1.71e-04
+2025-05-25 07:49:25,952 - INFO - Step 6380 | Batch 80/180 | Train Loss: 0.2469 | LR: 1.71e-04
+2025-05-25 07:50:11,338 - INFO - Step 6390 | Batch 90/180 | Train Loss: 0.8015 | LR: 1.71e-04
+2025-05-25 07:51:00,375 - INFO - Step 6400 | Batch 100/180 | Train Loss: 0.7193 | LR: 1.71e-04
+2025-05-25 07:51:52,003 - INFO - Step 6410 | Batch 110/180 | Train Loss: 0.6573 | LR: 1.71e-04
+2025-05-25 07:52:40,861 - INFO - Step 6420 | Batch 120/180 | Train Loss: 1.0587 | LR: 1.71e-04
+2025-05-25 07:53:29,717 - INFO - Step 6430 | Batch 130/180 | Train Loss: 1.2313 | LR: 1.71e-04
+2025-05-25 07:54:17,029 - INFO - Step 6440 | Batch 140/180 | Train Loss: 0.4819 | LR: 1.71e-04
+2025-05-25 07:55:01,342 - INFO - Step 6450 | Batch 150/180 | Train Loss: 1.6588 | LR: 1.71e-04
+2025-05-25 07:55:51,197 - INFO - Step 6460 | Batch 160/180 | Train Loss: 1.7287 | LR: 1.71e-04
+2025-05-25 07:56:41,254 - INFO - Step 6470 | Batch 170/180 | Train Loss: 1.4728 | LR: 1.71e-04
+2025-05-25 07:57:28,443 - INFO - Step 6480 | Batch 180/180 | Train Loss: 2.2427 | LR: 1.71e-04
+2025-05-25 08:00:44,509 - INFO - Validation Loss: 614.6903
+2025-05-25 08:00:44,560 - INFO - Epoch 36/50 Summary:
+2025-05-25 08:00:44,560 - INFO - Train Loss: 1.1118 | Val Loss: 86.3314 | Best Val Loss: 0.9597
+2025-05-25 08:00:44,560 - INFO - --------------------------------------------------
+2025-05-25 08:00:44,563 - INFO - Epoch 37/50 | Learning Rate: 1.51e-04
+2025-05-25 08:01:31,977 - INFO - Step 6490 | Batch 10/180 | Train Loss: 1.4652 | LR: 1.51e-04
+2025-05-25 08:02:09,130 - INFO - Step 6500 | Batch 20/180 | Train Loss: 0.8347 | LR: 1.51e-04
+2025-05-25 08:02:57,695 - INFO - Step 6510 | Batch 30/180 | Train Loss: 1.8601 | LR: 1.51e-04
+2025-05-25 08:03:46,333 - INFO - Step 6520 | Batch 40/180 | Train Loss: 1.0659 | LR: 1.51e-04
+2025-05-25 08:04:31,594 - INFO - Step 6530 | Batch 50/180 | Train Loss: 0.6030 | LR: 1.51e-04
+2025-05-25 08:05:05,979 - INFO - Step 6540 | Batch 60/180 | Train Loss: 0.2969 | LR: 1.51e-04
+2025-05-25 08:05:52,285 - INFO - Step 6550 | Batch 70/180 | Train Loss: 0.2309 | LR: 1.51e-04
+2025-05-25 08:06:38,873 - INFO - Step 6560 | Batch 80/180 | Train Loss: 0.8082 | LR: 1.51e-04
+2025-05-25 08:07:26,560 - INFO - Step 6570 | Batch 90/180 | Train Loss: 1.7818 | LR: 1.51e-04
+2025-05-25 08:08:11,063 - INFO - Step 6580 | Batch 100/180 | Train Loss: 1.4990 | LR: 1.51e-04
+2025-05-25 08:08:58,067 - INFO - Step 6590 | Batch 110/180 | Train Loss: 1.5974 | LR: 1.51e-04
+2025-05-25 08:09:42,469 - INFO - Step 6600 | Batch 120/180 | Train Loss: 2.2906 | LR: 1.51e-04
+2025-05-25 08:10:10,501 - INFO - Step 6610 | Batch 130/180 | Train Loss: 0.3661 | LR: 1.51e-04
+2025-05-25 08:10:55,621 - INFO - Step 6620 | Batch 140/180 | Train Loss: 0.6606 | LR: 1.51e-04
+2025-05-25 08:11:23,861 - INFO - Step 6630 | Batch 150/180 | Train Loss: 0.7988 | LR: 1.51e-04
+2025-05-25 08:11:52,910 - INFO - Step 6640 | Batch 160/180 | Train Loss: 1.2681 | LR: 1.51e-04
+2025-05-25 08:12:23,669 - INFO - Step 6650 | Batch 170/180 | Train Loss: 0.6494 | LR: 1.51e-04
+2025-05-25 08:12:52,090 - INFO - Step 6660 | Batch 180/180 | Train Loss: 1.5757 | LR: 1.51e-04
+2025-05-25 08:16:01,394 - INFO - Validation Loss: 588.6163
+2025-05-25 08:16:02,143 - INFO - Epoch 37/50 Summary:
+2025-05-25 08:16:02,143 - INFO - Train Loss: 1.0518 | Val Loss: 83.1762 | Best Val Loss: 0.9597
+2025-05-25 08:16:02,144 - INFO - --------------------------------------------------
+2025-05-25 08:16:02,147 - INFO - Epoch 38/50 | Learning Rate: 1.31e-04
+2025-05-25 08:16:50,319 - INFO - Step 6670 | Batch 10/180 | Train Loss: 0.3261 | LR: 1.31e-04
+2025-05-25 08:17:38,713 - INFO - Step 6680 | Batch 20/180 | Train Loss: 0.4083 | LR: 1.31e-04
+2025-05-25 08:18:28,039 - INFO - Step 6690 | Batch 30/180 | Train Loss: 1.6036 | LR: 1.31e-04
+2025-05-25 08:19:15,430 - INFO - Step 6700 | Batch 40/180 | Train Loss: 2.0719 | LR: 1.31e-04
+2025-05-25 08:20:03,131 - INFO - Step 6710 | Batch 50/180 | Train Loss: 0.6864 | LR: 1.31e-04
+2025-05-25 08:20:52,622 - INFO - Step 6720 | Batch 60/180 | Train Loss: 0.7141 | LR: 1.31e-04
+2025-05-25 08:21:41,310 - INFO - Step 6730 | Batch 70/180 | Train Loss: 0.2164 | LR: 1.31e-04
+2025-05-25 08:22:28,835 - INFO - Step 6740 | Batch 80/180 | Train Loss: 1.2901 | LR: 1.31e-04
+2025-05-25 08:23:14,799 - INFO - Step 6750 | Batch 90/180 | Train Loss: 2.1199 | LR: 1.31e-04
+2025-05-25 08:24:02,932 - INFO - Step 6760 | Batch 100/180 | Train Loss: 1.9797 | LR: 1.31e-04
+2025-05-25 08:24:52,537 - INFO - Step 6770 | Batch 110/180 | Train Loss: 1.3989 | LR: 1.31e-04
+2025-05-25 08:25:41,976 - INFO - Step 6780 | Batch 120/180 | Train Loss: 0.9628 | LR: 1.31e-04
+2025-05-25 08:26:27,396 - INFO - Step 6790 | Batch 130/180 | Train Loss: 1.0585 | LR: 1.31e-04
+2025-05-25 08:27:08,788 - INFO - Step 6800 | Batch 140/180 | Train Loss: 2.1824 | LR: 1.31e-04
+2025-05-25 08:27:52,346 - INFO - Step 6810 | Batch 150/180 | Train Loss: 1.6212 | LR: 1.31e-04
+2025-05-25 08:28:35,449 - INFO - Step 6820 | Batch 160/180 | Train Loss: 0.5873 | LR: 1.31e-04
+2025-05-25 08:29:16,467 - INFO - Step 6830 | Batch 170/180 | Train Loss: 0.3427 | LR: 1.31e-04
+2025-05-25 08:29:55,800 - INFO - Step 6840 | Batch 180/180 | Train Loss: 2.4639 | LR: 1.31e-04
+2025-05-25 08:32:46,562 - INFO - Validation Loss: 4304.9975
+2025-05-25 08:32:47,364 - INFO - Epoch 38/50 Summary:
+2025-05-25 08:32:47,364 - INFO - Train Loss: 1.1317 | Val Loss: 547.8723 | Best Val Loss: 0.9597
+2025-05-25 08:32:47,365 - INFO - --------------------------------------------------
+2025-05-25 08:32:47,367 - INFO - Epoch 39/50 | Learning Rate: 1.13e-04
+2025-05-25 08:33:31,823 - INFO - Step 6850 | Batch 10/180 | Train Loss: 0.5727 | LR: 1.13e-04
+2025-05-25 08:34:14,556 - INFO - Step 6860 | Batch 20/180 | Train Loss: 1.4127 | LR: 1.13e-04
+2025-05-25 08:34:58,512 - INFO - Step 6870 | Batch 30/180 | Train Loss: 1.0345 | LR: 1.13e-04
+2025-05-25 08:35:43,082 - INFO - Step 6880 | Batch 40/180 | Train Loss: 0.1543 | LR: 1.13e-04
+2025-05-25 08:36:26,879 - INFO - Step 6890 | Batch 50/180 | Train Loss: 1.7885 | LR: 1.13e-04
+2025-05-25 08:37:08,707 - INFO - Step 6900 | Batch 60/180 | Train Loss: 0.8822 | LR: 1.13e-04
+2025-05-25 08:37:52,546 - INFO - Step 6910 | Batch 70/180 | Train Loss: 0.9748 | LR: 1.13e-04
+2025-05-25 08:38:36,376 - INFO - Step 6920 | Batch 80/180 | Train Loss: 1.7857 | LR: 1.13e-04
+2025-05-25 08:39:19,013 - INFO - Step 6930 | Batch 90/180 | Train Loss: 0.3626 | LR: 1.13e-04
+2025-05-25 08:40:02,147 - INFO - Step 6940 | Batch 100/180 | Train Loss: 0.4846 | LR: 1.13e-04
+2025-05-25 08:40:46,559 - INFO - Step 6950 | Batch 110/180 | Train Loss: 1.1673 | LR: 1.13e-04
+2025-05-25 08:41:29,587 - INFO - Step 6960 | Batch 120/180 | Train Loss: 0.6637 | LR: 1.13e-04
+2025-05-25 08:42:12,683 - INFO - Step 6970 | Batch 130/180 | Train Loss: 1.2487 | LR: 1.13e-04
+2025-05-25 08:42:57,253 - INFO - Step 6980 | Batch 140/180 | Train Loss: 0.8135 | LR: 1.13e-04
+2025-05-25 08:43:41,702 - INFO - Step 6990 | Batch 150/180 | Train Loss: 3.6072 | LR: 1.13e-04
+2025-05-25 08:44:24,111 - INFO - Step 7000 | Batch 160/180 | Train Loss: 1.3645 | LR: 1.13e-04
+2025-05-25 08:45:07,311 - INFO - Step 7010 | Batch 170/180 | Train Loss: 0.7998 | LR: 1.13e-04
+2025-05-25 08:45:48,406 - INFO - Step 7020 | Batch 180/180 | Train Loss: 0.8018 | LR: 1.13e-04
+2025-05-25 08:48:41,667 - INFO - Validation Loss: 5481.7485
+2025-05-25 08:48:41,914 - INFO - Epoch 39/50 Summary:
+2025-05-25 08:48:41,914 - INFO - Train Loss: 0.9764 | Val Loss: 695.2040 | Best Val Loss: 0.9597
+2025-05-25 08:48:41,914 - INFO - --------------------------------------------------
+2025-05-25 08:48:41,918 - INFO - Epoch 40/50 | Learning Rate: 9.54e-05
+2025-05-25 08:49:25,221 - INFO - Step 7030 | Batch 10/180 | Train Loss: 1.2040 | LR: 9.54e-05
+2025-05-25 08:50:08,032 - INFO - Step 7040 | Batch 20/180 | Train Loss: 0.4349 | LR: 9.54e-05
+2025-05-25 08:50:52,519 - INFO - Step 7050 | Batch 30/180 | Train Loss: 0.9226 | LR: 9.54e-05
+2025-05-25 08:51:37,100 - INFO - Step 7060 | Batch 40/180 | Train Loss: 0.5419 | LR: 9.54e-05
+2025-05-25 08:52:20,213 - INFO - Step 7070 | Batch 50/180 | Train Loss: 0.6375 | LR: 9.54e-05
+2025-05-25 08:53:04,208 - INFO - Step 7080 | Batch 60/180 | Train Loss: 1.1768 | LR: 9.54e-05
+2025-05-25 08:53:48,468 - INFO - Step 7090 | Batch 70/180 | Train Loss: 0.9142 | LR: 9.54e-05
+2025-05-25 08:54:33,795 - INFO - Step 7100 | Batch 80/180 | Train Loss: 0.8945 | LR: 9.54e-05
+2025-05-25 08:55:16,538 - INFO - Step 7110 | Batch 90/180 | Train Loss: 1.2346 | LR: 9.54e-05
+2025-05-25 08:55:59,385 - INFO - Step 7120 | Batch 100/180 | Train Loss: 0.9676 | LR: 9.54e-05
+2025-05-25 08:56:42,477 - INFO - Step 7130 | Batch 110/180 | Train Loss: 0.9600 | LR: 9.54e-05
+2025-05-25 08:57:26,736 - INFO - Step 7140 | Batch 120/180 | Train Loss: 0.8042 | LR: 9.54e-05
+2025-05-25 08:58:09,917 - INFO - Step 7150 | Batch 130/180 | Train Loss: 0.9309 | LR: 9.54e-05
+2025-05-25 08:58:53,489 - INFO - Step 7160 | Batch 140/180 | Train Loss: 1.4746 | LR: 9.54e-05
+2025-05-25 08:59:37,158 - INFO - Step 7170 | Batch 150/180 | Train Loss: 0.2591 | LR: 9.54e-05
+2025-05-25 09:00:23,866 - INFO - Step 7180 | Batch 160/180 | Train Loss: 1.4025 | LR: 9.54e-05
+2025-05-25 09:01:07,400 - INFO - Step 7190 | Batch 170/180 | Train Loss: 1.3809 | LR: 9.54e-05
+2025-05-25 09:01:47,969 - INFO - Step 7200 | Batch 180/180 | Train Loss: 0.4675 | LR: 9.54e-05
+2025-05-25 09:04:38,032 - INFO - Validation Loss: 1757.4644
+2025-05-25 09:04:38,779 - INFO - Epoch 40/50 Summary:
+2025-05-25 09:04:38,782 - INFO - Train Loss: 1.0575 | Val Loss: 229.6551 | Best Val Loss: 0.9597
+2025-05-25 09:04:38,782 - INFO - --------------------------------------------------
+2025-05-25 09:04:38,785 - INFO - Epoch 41/50 | Learning Rate: 7.94e-05
+2025-05-25 09:05:22,323 - INFO - Step 7210 | Batch 10/180 | Train Loss: 1.3126 | LR: 7.94e-05
+2025-05-25 09:06:06,141 - INFO - Step 7220 | Batch 20/180 | Train Loss: 0.1181 | LR: 7.94e-05
+2025-05-25 09:06:51,196 - INFO - Step 7230 | Batch 30/180 | Train Loss: 0.8272 | LR: 7.94e-05
+2025-05-25 09:07:35,399 - INFO - Step 7240 | Batch 40/180 | Train Loss: 0.4872 | LR: 7.94e-05
+2025-05-25 09:08:19,320 - INFO - Step 7250 | Batch 50/180 | Train Loss: 0.9749 | LR: 7.94e-05
+2025-05-25 09:09:03,053 - INFO - Step 7260 | Batch 60/180 | Train Loss: 0.9944 | LR: 7.94e-05
+2025-05-25 09:09:47,749 - INFO - Step 7270 | Batch 70/180 | Train Loss: 0.7752 | LR: 7.94e-05
+2025-05-25 09:10:32,778 - INFO - Step 7280 | Batch 80/180 | Train Loss: 0.4333 | LR: 7.94e-05
+2025-05-25 09:11:14,775 - INFO - Step 7290 | Batch 90/180 | Train Loss: 0.2615 | LR: 7.94e-05
+2025-05-25 09:11:58,597 - INFO - Step 7300 | Batch 100/180 | Train Loss: 1.2014 | LR: 7.94e-05
+2025-05-25 09:12:43,436 - INFO - Step 7310 | Batch 110/180 | Train Loss: 0.6190 | LR: 7.94e-05
+2025-05-25 09:13:27,541 - INFO - Step 7320 | Batch 120/180 | Train Loss: 1.3645 | LR: 7.94e-05
+2025-05-25 09:14:10,848 - INFO - Step 7330 | Batch 130/180 | Train Loss: 1.1308 | LR: 7.94e-05
+2025-05-25 09:14:55,036 - INFO - Step 7340 | Batch 140/180 | Train Loss: 1.6795 | LR: 7.94e-05
+2025-05-25 09:15:40,890 - INFO - Step 7350 | Batch 150/180 | Train Loss: 0.6294 | LR: 7.94e-05
+2025-05-25 09:16:24,093 - INFO - Step 7360 | Batch 160/180 | Train Loss: 1.1402 | LR: 7.94e-05
+2025-05-25 09:17:06,845 - INFO - Step 7370 | Batch 170/180 | Train Loss: 0.9129 | LR: 7.94e-05
+2025-05-25 09:17:47,341 - INFO - Step 7380 | Batch 180/180 | Train Loss: 1.7326 | LR: 7.94e-05
+2025-05-25 09:20:32,562 - INFO - Validation Loss: 3696.2916
+2025-05-25 09:20:34,376 - INFO - Epoch 41/50 Summary:
+2025-05-25 09:20:34,376 - INFO - Train Loss: 1.0996 | Val Loss: 471.3481 | Best Val Loss: 0.9597
+2025-05-25 09:20:34,376 - INFO - --------------------------------------------------
+2025-05-25 09:20:34,379 - INFO - Epoch 42/50 | Learning Rate: 6.48e-05
+2025-05-25 09:21:16,552 - INFO - Step 7390 | Batch 10/180 | Train Loss: 1.8848 | LR: 6.48e-05
+2025-05-25 09:21:59,939 - INFO - Step 7400 | Batch 20/180 | Train Loss: 2.2748 | LR: 6.48e-05
+2025-05-25 09:22:43,438 - INFO - Step 7410 | Batch 30/180 | Train Loss: 0.5150 | LR: 6.48e-05
+2025-05-25 09:23:27,974 - INFO - Step 7420 | Batch 40/180 | Train Loss: 0.5181 | LR: 6.48e-05
+2025-05-25 09:24:11,400 - INFO - Step 7430 | Batch 50/180 | Train Loss: 0.3977 | LR: 6.48e-05
+2025-05-25 09:24:56,117 - INFO - Step 7440 | Batch 60/180 | Train Loss: 1.3316 | LR: 6.48e-05
+2025-05-25 09:25:40,725 - INFO - Step 7450 | Batch 70/180 | Train Loss: 0.6430 | LR: 6.48e-05
+2025-05-25 09:26:24,435 - INFO - Step 7460 | Batch 80/180 | Train Loss: 0.6716 | LR: 6.48e-05
+2025-05-25 09:27:06,343 - INFO - Step 7470 | Batch 90/180 | Train Loss: 0.7354 | LR: 6.48e-05
+2025-05-25 09:27:49,806 - INFO - Step 7480 | Batch 100/180 | Train Loss: 0.8528 | LR: 6.48e-05
+2025-05-25 09:28:32,652 - INFO - Step 7490 | Batch 110/180 | Train Loss: 1.3289 | LR: 6.48e-05
+2025-05-25 09:29:14,950 - INFO - Step 7500 | Batch 120/180 | Train Loss: 1.2415 | LR: 6.48e-05
+2025-05-25 09:29:58,718 - INFO - Step 7510 | Batch 130/180 | Train Loss: 0.4413 | LR: 6.48e-05
+2025-05-25 09:30:45,511 - INFO - Step 7520 | Batch 140/180 | Train Loss: 0.7812 | LR: 6.48e-05
+2025-05-25 09:31:28,904 - INFO - Step 7530 | Batch 150/180 | Train Loss: 0.6371 | LR: 6.48e-05
+2025-05-25 09:32:10,226 - INFO - Step 7540 | Batch 160/180 | Train Loss: 1.2492 | LR: 6.48e-05
+2025-05-25 09:32:53,816 - INFO - Step 7550 | Batch 170/180 | Train Loss: 1.0803 | LR: 6.48e-05
+2025-05-25 09:33:34,856 - INFO - Step 7560 | Batch 180/180 | Train Loss: 0.2832 | LR: 6.48e-05
+2025-05-25 09:36:25,759 - INFO - Validation Loss: 1283.9963
+2025-05-25 09:36:25,903 - INFO - Epoch 42/50 Summary:
+2025-05-25 09:36:25,903 - INFO - Train Loss: 1.0459 | Val Loss: 170.5445 | Best Val Loss: 0.9597
+2025-05-25 09:36:25,904 - INFO - --------------------------------------------------
+2025-05-25 09:36:25,907 - INFO - Epoch 43/50 | Learning Rate: 5.15e-05
+2025-05-25 09:37:08,342 - INFO - Step 7570 | Batch 10/180 | Train Loss: 1.0600 | LR: 5.15e-05
+2025-05-25 09:37:51,527 - INFO - Step 7580 | Batch 20/180 | Train Loss: 0.6621 | LR: 5.15e-05
+2025-05-25 09:38:34,985 - INFO - Step 7590 | Batch 30/180 | Train Loss: 0.1600 | LR: 5.15e-05
+2025-05-25 09:39:17,024 - INFO - Step 7600 | Batch 40/180 | Train Loss: 1.2590 | LR: 5.15e-05
+2025-05-25 09:40:01,474 - INFO - Step 7610 | Batch 50/180 | Train Loss: 0.6546 | LR: 5.15e-05
+2025-05-25 09:40:45,561 - INFO - Step 7620 | Batch 60/180 | Train Loss: 0.1547 | LR: 5.15e-05
+2025-05-25 09:41:29,361 - INFO - Step 7630 | Batch 70/180 | Train Loss: 0.5980 | LR: 5.15e-05
+2025-05-25 09:42:07,440 - INFO - Step 7640 | Batch 80/180 | Train Loss: 0.9682 | LR: 5.15e-05
+2025-05-25 09:42:45,737 - INFO - Step 7650 | Batch 90/180 | Train Loss: 1.1089 | LR: 5.15e-05
+2025-05-25 09:43:21,941 - INFO - Step 7660 | Batch 100/180 | Train Loss: 1.6223 | LR: 5.15e-05
+2025-05-25 09:43:59,052 - INFO - Step 7670 | Batch 110/180 | Train Loss: 0.4299 | LR: 5.15e-05
+2025-05-25 09:44:37,744 - INFO - Step 7680 | Batch 120/180 | Train Loss: 0.8051 | LR: 5.15e-05
+2025-05-25 09:45:15,100 - INFO - Step 7690 | Batch 130/180 | Train Loss: 0.7850 | LR: 5.15e-05
+2025-05-25 09:45:53,323 - INFO - Step 7700 | Batch 140/180 | Train Loss: 1.1787 | LR: 5.15e-05
+2025-05-25 09:46:29,681 - INFO - Step 7710 | Batch 150/180 | Train Loss: 0.4978 | LR: 5.15e-05
+2025-05-25 09:47:05,665 - INFO - Step 7720 | Batch 160/180 | Train Loss: 0.4095 | LR: 5.15e-05
+2025-05-25 09:47:43,349 - INFO - Step 7730 | Batch 170/180 | Train Loss: 1.1382 | LR: 5.15e-05
+2025-05-25 09:48:16,498 - INFO - Step 7740 | Batch 180/180 | Train Loss: 0.6243 | LR: 5.15e-05
+2025-05-25 09:50:37,641 - INFO - Validation Loss: 73.8446
+2025-05-25 09:50:38,037 - INFO - Epoch 43/50 Summary:
+2025-05-25 09:50:38,038 - INFO - Train Loss: 1.0571 | Val Loss: 19.3235 | Best Val Loss: 0.9597
+2025-05-25 09:50:38,038 - INFO - --------------------------------------------------
+2025-05-25 09:50:38,041 - INFO - Epoch 44/50 | Learning Rate: 3.96e-05
+2025-05-25 09:51:14,401 - INFO - Step 7750 | Batch 10/180 | Train Loss: 0.7878 | LR: 3.96e-05
+2025-05-25 09:51:51,577 - INFO - Step 7760 | Batch 20/180 | Train Loss: 1.1099 | LR: 3.96e-05
+2025-05-25 09:52:29,716 - INFO - Step 7770 | Batch 30/180 | Train Loss: 0.5120 | LR: 3.96e-05
+2025-05-25 09:53:03,869 - INFO - Step 7780 | Batch 40/180 | Train Loss: 0.3980 | LR: 3.96e-05
+2025-05-25 09:53:40,612 - INFO - Step 7790 | Batch 50/180 | Train Loss: 0.3920 | LR: 3.96e-05
+2025-05-25 09:54:16,448 - INFO - Step 7800 | Batch 60/180 | Train Loss: 1.3289 | LR: 3.96e-05
+2025-05-25 09:54:53,874 - INFO - Step 7810 | Batch 70/180 | Train Loss: 0.3973 | LR: 3.96e-05
+2025-05-25 09:55:31,756 - INFO - Step 7820 | Batch 80/180 | Train Loss: 0.1540 | LR: 3.96e-05
+2025-05-25 09:56:07,136 - INFO - Step 7830 | Batch 90/180 | Train Loss: 0.7297 | LR: 3.96e-05
+2025-05-25 09:56:43,780 - INFO - Step 7840 | Batch 100/180 | Train Loss: 0.4606 | LR: 3.96e-05
+2025-05-25 09:57:20,077 - INFO - Step 7850 | Batch 110/180 | Train Loss: 0.7734 | LR: 3.96e-05
+2025-05-25 09:57:57,812 - INFO - Step 7860 | Batch 120/180 | Train Loss: 0.3152 | LR: 3.96e-05
+2025-05-25 09:58:35,555 - INFO - Step 7870 | Batch 130/180 | Train Loss: 0.2759 | LR: 3.96e-05
+2025-05-25 09:59:11,288 - INFO - Step 7880 | Batch 140/180 | Train Loss: 1.1342 | LR: 3.96e-05
+2025-05-25 09:59:49,680 - INFO - Step 7890 | Batch 150/180 | Train Loss: 0.4151 | LR: 3.96e-05
+2025-05-25 10:00:31,417 - INFO - Step 7900 | Batch 160/180 | Train Loss: 0.3721 | LR: 3.96e-05
+2025-05-25 10:01:06,589 - INFO - Step 7910 | Batch 170/180 | Train Loss: 0.7880 | LR: 3.96e-05
+2025-05-25 10:01:41,876 - INFO - Step 7920 | Batch 180/180 | Train Loss: 11.1411 | LR: 3.96e-05
+2025-05-25 10:04:05,226 - INFO - Validation Loss: 3253.4093
+2025-05-25 10:04:06,896 - INFO - Epoch 44/50 Summary:
+2025-05-25 10:04:06,898 - INFO - Train Loss: 1.0699 | Val Loss: 416.7569 | Best Val Loss: 0.9597
+2025-05-25 10:04:06,899 - INFO - --------------------------------------------------
+2025-05-25 10:04:06,902 - INFO - Epoch 45/50 | Learning Rate: 2.92e-05
+2025-05-25 10:04:44,942 - INFO - Step 7930 | Batch 10/180 | Train Loss: 0.6676 | LR: 2.92e-05
+2025-05-25 10:05:22,402 - INFO - Step 7940 | Batch 20/180 | Train Loss: 1.2848 | LR: 2.92e-05
+2025-05-25 10:05:58,161 - INFO - Step 7950 | Batch 30/180 | Train Loss: 1.1054 | LR: 2.92e-05
+2025-05-25 10:06:36,059 - INFO - Step 7960 | Batch 40/180 | Train Loss: 0.8964 | LR: 2.92e-05
+2025-05-25 10:07:11,972 - INFO - Step 7970 | Batch 50/180 | Train Loss: 0.8916 | LR: 2.92e-05
+2025-05-25 10:07:50,652 - INFO - Step 7980 | Batch 60/180 | Train Loss: 1.5356 | LR: 2.92e-05
+2025-05-25 10:08:27,323 - INFO - Step 7990 | Batch 70/180 | Train Loss: 2.2366 | LR: 2.92e-05
+2025-05-25 10:09:04,408 - INFO - Step 8000 | Batch 80/180 | Train Loss: 2.1398 | LR: 2.92e-05
+2025-05-25 10:09:43,490 - INFO - Step 8010 | Batch 90/180 | Train Loss: 0.9466 | LR: 2.92e-05
+2025-05-25 10:10:20,328 - INFO - Step 8020 | Batch 100/180 | Train Loss: 1.3608 | LR: 2.92e-05
+2025-05-25 10:10:57,004 - INFO - Step 8030 | Batch 110/180 | Train Loss: 3.1248 | LR: 2.92e-05
+2025-05-25 10:11:34,082 - INFO - Step 8040 | Batch 120/180 | Train Loss: 0.9369 | LR: 2.92e-05
+2025-05-25 10:12:09,571 - INFO - Step 8050 | Batch 130/180 | Train Loss: 0.6764 | LR: 2.92e-05
+2025-05-25 10:12:48,401 - INFO - Step 8060 | Batch 140/180 | Train Loss: 0.8297 | LR: 2.92e-05
+2025-05-25 10:13:26,994 - INFO - Step 8070 | Batch 150/180 | Train Loss: 0.7726 | LR: 2.92e-05
+2025-05-25 10:14:03,270 - INFO - Step 8080 | Batch 160/180 | Train Loss: 0.5399 | LR: 2.92e-05
+2025-05-25 10:14:42,029 - INFO - Step 8090 | Batch 170/180 | Train Loss: 1.0625 | LR: 2.92e-05
+2025-05-25 10:15:14,967 - INFO - Step 8100 | Batch 180/180 | Train Loss: 1.1710 | LR: 2.92e-05
+2025-05-25 10:17:38,504 - INFO - Validation Loss: 7169.3212
+2025-05-25 10:17:38,678 - INFO - Epoch 45/50 Summary:
+2025-05-25 10:17:38,679 - INFO - Train Loss: 1.1050 | Val Loss: 905.9093 | Best Val Loss: 0.9597
+2025-05-25 10:17:38,679 - INFO - --------------------------------------------------
+2025-05-25 10:17:38,682 - INFO - Epoch 46/50 | Learning Rate: 2.04e-05
+2025-05-25 10:18:15,382 - INFO - Step 8110 | Batch 10/180 | Train Loss: 0.5695 | LR: 2.04e-05
+2025-05-25 10:18:51,764 - INFO - Step 8120 | Batch 20/180 | Train Loss: 0.6126 | LR: 2.04e-05
+2025-05-25 10:19:28,646 - INFO - Step 8130 | Batch 30/180 | Train Loss: 1.9288 | LR: 2.04e-05
+2025-05-25 10:20:03,719 - INFO - Step 8140 | Batch 40/180 | Train Loss: 1.5551 | LR: 2.04e-05
+2025-05-25 10:20:40,901 - INFO - Step 8150 | Batch 50/180 | Train Loss: 0.9650 | LR: 2.04e-05
+2025-05-25 10:21:16,639 - INFO - Step 8160 | Batch 60/180 | Train Loss: 1.9977 | LR: 2.04e-05
+2025-05-25 10:21:54,658 - INFO - Step 8170 | Batch 70/180 | Train Loss: 0.9528 | LR: 2.04e-05
+2025-05-25 10:22:31,027 - INFO - Step 8180 | Batch 80/180 | Train Loss: 1.5729 | LR: 2.04e-05
+2025-05-25 10:23:06,484 - INFO - Step 8190 | Batch 90/180 | Train Loss: 0.9861 | LR: 2.04e-05
+2025-05-25 10:23:44,354 - INFO - Step 8200 | Batch 100/180 | Train Loss: 0.9282 | LR: 2.04e-05
+2025-05-25 10:24:20,138 - INFO - Step 8210 | Batch 110/180 | Train Loss: 0.9847 | LR: 2.04e-05
+2025-05-25 10:24:57,992 - INFO - Step 8220 | Batch 120/180 | Train Loss: 1.3361 | LR: 2.04e-05
+2025-05-25 10:25:36,708 - INFO - Step 8230 | Batch 130/180 | Train Loss: 0.3777 | LR: 2.04e-05
+2025-05-25 10:26:12,215 - INFO - Step 8240 | Batch 140/180 | Train Loss: 0.6508 | LR: 2.04e-05
+2025-05-25 10:26:49,757 - INFO - Step 8250 | Batch 150/180 | Train Loss: 1.0506 | LR: 2.04e-05
+2025-05-25 10:27:27,048 - INFO - Step 8260 | Batch 160/180 | Train Loss: 1.0127 | LR: 2.04e-05
+2025-05-25 10:28:04,301 - INFO - Step 8270 | Batch 170/180 | Train Loss: 1.6678 | LR: 2.04e-05
+2025-05-25 10:28:38,470 - INFO - Step 8280 | Batch 180/180 | Train Loss: 0.0394 | LR: 2.04e-05
+2025-05-25 10:31:02,769 - INFO - Validation Loss: 3296.2217
+2025-05-25 10:31:03,538 - INFO - Epoch 46/50 Summary:
+2025-05-25 10:31:03,543 - INFO - Train Loss: 0.9735 | Val Loss: 422.1247 | Best Val Loss: 0.9597
+2025-05-25 10:31:03,543 - INFO - --------------------------------------------------
+2025-05-25 10:31:03,546 - INFO - Epoch 47/50 | Learning Rate: 1.31e-05
+2025-05-25 10:31:40,490 - INFO - Step 8290 | Batch 10/180 | Train Loss: 0.7540 | LR: 1.31e-05
+2025-05-25 10:32:16,756 - INFO - Step 8300 | Batch 20/180 | Train Loss: 1.5352 | LR: 1.31e-05
+2025-05-25 10:32:54,177 - INFO - Step 8310 | Batch 30/180 | Train Loss: 0.3177 | LR: 1.31e-05
+2025-05-25 10:33:32,366 - INFO - Step 8320 | Batch 40/180 | Train Loss: 0.6443 | LR: 1.31e-05
+2025-05-25 10:34:07,133 - INFO - Step 8330 | Batch 50/180 | Train Loss: 1.3985 | LR: 1.31e-05
+2025-05-25 10:34:44,549 - INFO - Step 8340 | Batch 60/180 | Train Loss: 1.8580 | LR: 1.31e-05
+2025-05-25 10:35:22,071 - INFO - Step 8350 | Batch 70/180 | Train Loss: 1.4099 | LR: 1.31e-05
+2025-05-25 10:35:57,945 - INFO - Step 8360 | Batch 80/180 | Train Loss: 0.2920 | LR: 1.31e-05
+2025-05-25 10:36:36,656 - INFO - Step 8370 | Batch 90/180 | Train Loss: 2.1756 | LR: 1.31e-05
+2025-05-25 10:37:12,522 - INFO - Step 8380 | Batch 100/180 | Train Loss: 0.8455 | LR: 1.31e-05
+2025-05-25 10:37:49,426 - INFO - Step 8390 | Batch 110/180 | Train Loss: 1.7624 | LR: 1.31e-05
+2025-05-25 10:38:27,176 - INFO - Step 8400 | Batch 120/180 | Train Loss: 0.9641 | LR: 1.31e-05
+2025-05-25 10:39:02,134 - INFO - Step 8410 | Batch 130/180 | Train Loss: 0.5333 | LR: 1.31e-05
+2025-05-25 10:39:40,474 - INFO - Step 8420 | Batch 140/180 | Train Loss: 2.9525 | LR: 1.31e-05
+2025-05-25 10:40:16,200 - INFO - Step 8430 | Batch 150/180 | Train Loss: 0.7771 | LR: 1.31e-05
+2025-05-25 10:40:53,555 - INFO - Step 8440 | Batch 160/180 | Train Loss: 0.7781 | LR: 1.31e-05
+2025-05-25 10:41:30,126 - INFO - Step 8450 | Batch 170/180 | Train Loss: 1.0212 | LR: 1.31e-05
+2025-05-25 10:42:02,811 - INFO - Step 8460 | Batch 180/180 | Train Loss: 0.3972 | LR: 1.31e-05
+2025-05-25 10:44:23,375 - INFO - Validation Loss: 113.9463
+2025-05-25 10:44:24,816 - INFO - Epoch 47/50 Summary:
+2025-05-25 10:44:24,816 - INFO - Train Loss: 1.0754 | Val Loss: 24.4963 | Best Val Loss: 0.9597
+2025-05-25 10:44:24,817 - INFO - --------------------------------------------------
+2025-05-25 10:44:24,820 - INFO - Epoch 48/50 | Learning Rate: 7.38e-06
+2025-05-25 10:45:00,449 - INFO - Step 8470 | Batch 10/180 | Train Loss: 1.0872 | LR: 7.38e-06
+2025-05-25 10:45:39,584 - INFO - Step 8480 | Batch 20/180 | Train Loss: 0.5044 | LR: 7.38e-06
+2025-05-25 10:46:15,333 - INFO - Step 8490 | Batch 30/180 | Train Loss: 1.7560 | LR: 7.38e-06
+2025-05-25 10:46:52,371 - INFO - Step 8500 | Batch 40/180 | Train Loss: 1.7457 | LR: 7.38e-06
+2025-05-25 10:47:29,472 - INFO - Step 8510 | Batch 50/180 | Train Loss: 0.4306 | LR: 7.38e-06
+2025-05-25 10:48:04,845 - INFO - Step 8520 | Batch 60/180 | Train Loss: 2.6612 | LR: 7.38e-06
+2025-05-25 10:48:41,860 - INFO - Step 8530 | Batch 70/180 | Train Loss: 1.8068 | LR: 7.38e-06
+2025-05-25 10:49:17,564 - INFO - Step 8540 | Batch 80/180 | Train Loss: 1.1500 | LR: 7.38e-06
+2025-05-25 10:49:55,299 - INFO - Step 8550 | Batch 90/180 | Train Loss: 0.2338 | LR: 7.38e-06
+2025-05-25 10:50:33,052 - INFO - Step 8560 | Batch 100/180 | Train Loss: 1.1348 | LR: 7.38e-06
+2025-05-25 10:51:08,880 - INFO - Step 8570 | Batch 110/180 | Train Loss: 2.3346 | LR: 7.38e-06
+2025-05-25 10:51:45,704 - INFO - Step 8580 | Batch 120/180 | Train Loss: 0.4712 | LR: 7.38e-06
+2025-05-25 10:52:21,151 - INFO - Step 8590 | Batch 130/180 | Train Loss: 0.5306 | LR: 7.38e-06
+2025-05-25 10:52:56,858 - INFO - Step 8600 | Batch 140/180 | Train Loss: 2.2143 | LR: 7.38e-06
+2025-05-25 10:53:32,832 - INFO - Step 8610 | Batch 150/180 | Train Loss: 0.4995 | LR: 7.38e-06
+2025-05-25 10:54:08,602 - INFO - Step 8620 | Batch 160/180 | Train Loss: 1.3590 | LR: 7.38e-06
+2025-05-25 10:54:45,906 - INFO - Step 8630 | Batch 170/180 | Train Loss: 1.0604 | LR: 7.38e-06
+2025-05-25 10:55:19,753 - INFO - Step 8640 | Batch 180/180 | Train Loss: 0.4473 | LR: 7.38e-06
+2025-05-25 10:57:40,819 - INFO - Validation Loss: 17602.0717
+2025-05-25 10:57:40,831 - INFO - Epoch 48/50 Summary:
+2025-05-25 10:57:40,831 - INFO - Train Loss: 1.1012 | Val Loss: 2210.2815 | Best Val Loss: 0.9597
+2025-05-25 10:57:40,831 - INFO - --------------------------------------------------
+2025-05-25 10:57:40,834 - INFO - Epoch 49/50 | Learning Rate: 3.28e-06
+2025-05-25 10:58:16,234 - INFO - Step 8650 | Batch 10/180 | Train Loss: 1.6198 | LR: 3.28e-06
+2025-05-25 10:58:52,947 - INFO - Step 8660 | Batch 20/180 | Train Loss: 0.1746 | LR: 3.28e-06
+2025-05-25 10:59:29,714 - INFO - Step 8670 | Batch 30/180 | Train Loss: 0.4264 | LR: 3.28e-06
+2025-05-25 11:00:06,393 - INFO - Step 8680 | Batch 40/180 | Train Loss: 1.3510 | LR: 3.28e-06
+2025-05-25 11:00:47,671 - INFO - Step 8690 | Batch 50/180 | Train Loss: 0.3929 | LR: 3.28e-06
+2025-05-25 11:01:25,440 - INFO - Step 8700 | Batch 60/180 | Train Loss: 1.4230 | LR: 3.28e-06
+2025-05-25 11:02:03,075 - INFO - Step 8710 | Batch 70/180 | Train Loss: 1.1962 | LR: 3.28e-06
+2025-05-25 11:02:42,246 - INFO - Step 8720 | Batch 80/180 | Train Loss: 0.7846 | LR: 3.28e-06
+2025-05-25 11:03:18,558 - INFO - Step 8730 | Batch 90/180 | Train Loss: 0.9268 | LR: 3.28e-06
+2025-05-25 11:03:57,225 - INFO - Step 8740 | Batch 100/180 | Train Loss: 1.7315 | LR: 3.28e-06
+2025-05-25 11:04:36,300 - INFO - Step 8750 | Batch 110/180 | Train Loss: 1.4920 | LR: 3.28e-06
+2025-05-25 11:05:14,768 - INFO - Step 8760 | Batch 120/180 | Train Loss: 0.3635 | LR: 3.28e-06
+2025-05-25 11:05:53,344 - INFO - Step 8770 | Batch 130/180 | Train Loss: 1.2943 | LR: 3.28e-06
+2025-05-25 11:06:32,640 - INFO - Step 8780 | Batch 140/180 | Train Loss: 1.9581 | LR: 3.28e-06
+2025-05-25 11:07:09,932 - INFO - Step 8790 | Batch 150/180 | Train Loss: 0.2558 | LR: 3.28e-06
+2025-05-25 11:07:48,505 - INFO - Step 8800 | Batch 160/180 | Train Loss: 0.5188 | LR: 3.28e-06
+2025-05-25 11:08:27,732 - INFO - Step 8810 | Batch 170/180 | Train Loss: 0.7849 | LR: 3.28e-06

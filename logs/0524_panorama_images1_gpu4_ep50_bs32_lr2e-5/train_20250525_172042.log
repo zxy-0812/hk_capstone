@@ -1,0 +1,36 @@
+2025-05-25 17:20:42,447 - INFO - ==================================================
+2025-05-25 17:20:42,448 - INFO - Training Parameters:
+2025-05-25 17:20:42,449 - INFO - batch_size: 32
+2025-05-25 17:20:42,449 - INFO - dist_url: env://
+2025-05-25 17:20:42,449 - INFO - epochs: 50
+2025-05-25 17:20:42,449 - INFO - exp_name: 0524_panorama_images1_gpu4_ep50_bs32_lr2e-5
+2025-05-25 17:20:42,449 - INFO - freeze_backbone: False
+2025-05-25 17:20:42,449 - INFO - image_path: /home/zhongxinyu/capstone/HK/datasets/panorama_images_1
+2025-05-25 17:20:42,450 - INFO - label_path: /home/zhongxinyu/capstone/HK/datasets/sampled_labels.csv
+2025-05-25 17:20:42,450 - INFO - log_dir: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/logs
+2025-05-25 17:20:42,450 - INFO - log_interval: 10
+2025-05-25 17:20:42,450 - INFO - lr: 0.0001
+2025-05-25 17:20:42,450 - INFO - master_addr: localhost
+2025-05-25 17:20:42,450 - INFO - master_port: 12345
+2025-05-25 17:20:42,451 - INFO - min_lr: 1e-07
+2025-05-25 17:20:42,451 - INFO - nproc_per_node: 4
+2025-05-25 17:20:42,451 - INFO - pretrained: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/checkpoints/best_deeplabv3plus_resnet101_cityscapes_os16.pth.tar
+2025-05-25 17:20:42,451 - INFO - rank: 0
+2025-05-25 17:20:42,451 - INFO - save_path: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/checkpoints/best_regression_model.pth
+2025-05-25 17:20:42,451 - INFO - warmup_epochs: 1
+2025-05-25 17:20:42,452 - INFO - world_size: 4
+2025-05-25 17:20:42,452 - INFO - Date: 2025-05-25 17:20:42
+2025-05-25 17:20:42,452 - INFO - PyTorch Version: 1.12.0
+2025-05-25 17:20:42,452 - INFO - GPU Count: 8
+2025-05-25 17:20:42,459 - INFO - GPU 0: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,459 - INFO - GPU 1: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,459 - INFO - GPU 2: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,459 - INFO - GPU 3: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,459 - INFO - GPU 4: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,460 - INFO - GPU 5: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,460 - INFO - GPU 6: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,460 - INFO - GPU 7: Tesla V100-PCIE-32GB
+2025-05-25 17:20:42,460 - INFO - ==================================================
+2025-05-25 17:20:53,229 - INFO - 预训练权重加载完成: /home/zhongxinyu/capstone/HK/DeepLabV3Plus-Pytorch-master/checkpoints/best_deeplabv3plus_resnet101_cityscapes_os16.pth.tar
+2025-05-25 17:21:23,816 - INFO - Step 10 | Batch 10/44 | Train Loss: 0.5437 | LR: 1.00e-04
+2025-05-25 17:21:44,444 - INFO - Step 20 | Batch 20/44 | Train Loss: 0.7697 | LR: 1.00e-04
